@@ -17,7 +17,7 @@ For most problems with the API, submitting an issue here will be sufficient. We 
 
 ###Immediate Support###
 
-For major issues that require immediate support, please email us at support@plaid.io. We will try to respond within a few hours - there is pretty much always someone online at Plaid.
+For major issues that require immediate support, please email us at support@plaid.io - we will try to respond within a few hours (there is pretty much always someone online at Plaid).
 
 
 ###Other Issues###
