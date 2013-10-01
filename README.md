@@ -22,4 +22,4 @@ For major issues that require immediate support, please email us at support@plai
 
 ###Other Issues###
 
-For client-specific issues (ex: you need a new API key) or other low-priority issues that are sensitifve in nature, please email support+lowpri@plaid.io and we will get it sorted. We value a public forum for bugs, fixes, and stupid questions - so please use this option sparingly. 
+For client-specific issues (ex: you need a new API key) or other low-priority issues that are sensitive in nature, please email support+lowpri@plaid.io and we will get it sorted. We value a public forum for bugs, fixes, and stupid questions - so please use this option sparingly.
