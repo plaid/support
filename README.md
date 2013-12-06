@@ -7,7 +7,7 @@ Please submit all issues to the Plaid API v2.0.0 in this channel. If you're stil
 
 ###Documentation###
 
-Documentation for the Plaid API v2.0.0 is available at new.plaid.io/docs. Please tag any suggested edits to the docs.
+Documentation for the Plaid API v2.0.0 is available at https://plaid.io/v2/docs. Please submit any suggestions to the docs here. 
 
 
 ###General Issues###
