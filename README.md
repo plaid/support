@@ -2,7 +2,7 @@
 
 ##Welcome to the Plaid Support Channel
 
-Please submit all questions, issues, and suggestions for the Plaid API in this channel. Documentation is available at https://plaid.com/v2/docs. Docs suggestions are also best made here. 
+Please submit all questions, issues, and suggestions for the Plaid API in this channel. Full documentation is available [here](https://plaid.com/v2/docs). Docs suggestions are much appreciated and also best made on this support channel. 
 
 
 ###General Issues
@@ -18,7 +18,7 @@ For issues that require immediate support or are sensitive in nature, email us a
 ###Additional Documentation
 
 This directory contains additional documentation pertaining to the Plaid API including:
- - [Categories](https://github.com/plaid/support/)
- - [Errors](https://github.com/plaid/support/)
- - [License](https://github.com/plaid/support/)
- - [Privacy](https://github.com/plaid/support/)
+ - [Categories](https://github.com/plaid/support/blob/master/categories.md)
+ - [Errors](https://github.com/plaid/support/blob/master/errors.md)
+ - [License Agreement](https://github.com/plaid/support/blob/master/license.md)
+ - [Privacy Policy](https://github.com/plaid/support/blob/master/privacy.md)
