@@ -1,4 +1,6 @@
-####Response Code Detail
+#Error Codes#
+
+Below you will find details for our various response codes.
 
 HTTP | Code | Type | Details
 --- | --- | --- | --- 
