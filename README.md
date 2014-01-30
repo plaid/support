@@ -1,8 +1,8 @@
-#Plaid Support#
+#Plaid Support and Resources#
 
-##Welcome to the Plaid Support Channel
+##Welcome to Plaid!
 
-Please submit all questions, issues, and suggestions for the Plaid API in this channel. Full documentation is available [here](https://plaid.com/v2/docs). Docs suggestions are much appreciated and also best made on this support channel. 
+Please submit all questions, issues, and suggestions for the Plaid API in this channel. Full documentation is available [here](https://plaid.com/v2/docs).
 
 
 ###General Issues
