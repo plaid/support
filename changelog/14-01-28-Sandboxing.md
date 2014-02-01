@@ -1,4 +1,5 @@
-#January 28, 2014 - Sandboxing, New Banks & Domains
+
+##January 28, 2014 Sandboxing, New Banks & Domains
 Plaid API, release v2.02
 
 ##Overview
@@ -31,32 +32,32 @@ https://tartan.plaid.com/   (development)
 Routes have been condensed, and only the following are now active:
 
 ####Connect
-#####Connect Submit:
+######Connect Submit:
 ```POST```  [/connect](https://tartan.plaid.com/connect)  
 
-#####Connect Step:
+######Connect Step:
 ```POST```  [/connect/step](https://tartan.plaid.com/connect/step)  
 
-#####Connect Get:
+######Connect Get:
 ```GET```  [/connect](https://tartan.plaid.com/connect/get)  
 ```POST```  [/connect](https://tartan.plaid.com/connect)  
 
-#####Connect Delete:
+######Connect Delete:
 ```DELETE``` [/connect](https://tartan.plaid.com/connect)
 
 
 ####Auth (formerly Info)
-#####Auth Submit:
+######Auth Submit:
 ```POST```  [/auth](https://tartan.plaid.com/auth)
 
-#####Auth Step:
+######Auth Step:
 ```POST```  [/auth/step](https://tartan.plaid.com/auth/step)
 
-#####Auth Get:
+######Auth Get:
 ```GET```  [/auth](https://tartan.plaid.com/auth/get)
 ```POST```  [/auth](https://tartan.plaid.com/auth)
 
-#####Auth Delete:
+######Auth Delete:
 ```DELETE``` [/auth](https://tartan.plaid.com/auth)
 
 
@@ -77,7 +78,7 @@ Routes have been condensed, and only the following are now active:
 
 A development mode is now available that works with both test user credetials and live accounts. All responses using the plaid_test credentials except for those listed will return as incorrect. Test credentials are full-featured, and should work as normal with the rest of the API, including the return of valid [response and error codes](https://github.com/plaid/support/blob/master/errors.md).
 
-###Credentials:
+####Credentials:
 ```
 _username_ : ```plaid_test```
 
@@ -181,5 +182,5 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 
 New banks!
 
- - Citi:         (type: citi)
- - Wells Fargo:  (type: wells)
+ * Citi:         (type: citi)
+ * Wells Fargo:  (type: wells)
