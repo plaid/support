@@ -4,10 +4,10 @@
 
 New API will include a number of enhancements over the previous version including new bank integrations, enhanced categorization, and separate production and development environments/endpoints.
 
->```json
-> https://api.plaid.com/ 		(production)
-> https://tartan.plaid.com/		(development)
->```
+```
+https://api.plaid.com/ 			(production)
+https://tartan.plaid.com/		(development)
+```
 
 Routes are condensing to the following
 
@@ -92,9 +92,9 @@ Additionally, the list and login parameters are fully functional including webho
 
 A number of important updates were made to our category endpoint, resulting in higher quality categorization across the board. There is also an 'All Categories' endpoint now available that returns a JSON response containing all Plaid categories and their associated Factual and Foursquare mappings.
 
->```json
-> curl -X GET https://tartan.plaid.com/v2/category
->```
+```
+curl -X GET https://tartan.plaid.com/v2/category
+```
 
 A full list of Plaid categories can be found [here](https://github.com/plaid/support/blob/master/categories.md)
 
