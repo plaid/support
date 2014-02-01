@@ -80,22 +80,22 @@ A development mode is now available that works with both test user credetials an
 
 ####Credentials:
 ```
-_username_ : ```plaid_test```
+_username_ : plaid_test
 
-_correct password_ : ```plaid_good```  
-_locked password_ : ```plaid_locked```  
-_bad password_ : _anything else_  
+_correct password_ :    plaid_good  
+_locked password_ :     plaid_locked  
+_bad password_ :        _anything else_  
 ```
 
 ####For Question MFA:
 ```
-_correct answer_ : ```tomato```  
+_correct answer_ : tomato  
 _bad answer_ : _anything else_
 ```
 
 ####For Code MFA:
 ```
-_correct answer_ : ```1234```  
+_correct answer_ : 1234  
 _bad answer_ : _anything else_
 ```
 
@@ -159,7 +159,7 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 ```
 {
   type: "question",
-  mfa: { //We should think about moving this to an array
+  mfa: {
     question: 'What is your mothers maiden name?'
   }
   access_token: "xxxxx"
