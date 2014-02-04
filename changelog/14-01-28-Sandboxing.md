@@ -1,4 +1,3 @@
-
 ##January 28, 2014 Sandboxing, New Banks & Domains
 Plaid API, release v2.02
 
@@ -12,6 +11,8 @@ Changes are as follows:
  * Improved Categorization
  * Error Codes
  * MFA Response Structure
+ * Date Response
+ * Category Response
  * New Banks
 
 Full documentation can be found [here](https://www.plaid.com/docs).
@@ -175,6 +176,25 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
   access_token: "xxxxx"
 }
 ```
+
+---
+
+##Category Response
+
+```_category``` is now ```category``` which is an array of the hierarch, and ```_category.id``` is now ```category_id```  
+ex.  
+```{
+  "category": ["Food & Drink","Restaurants","French"],  
+  "category_id": "52544965f71e87d00700006c"
+}```
+
+---
+
+##Date Response
+
+The returned date is now in accordance with [ISO 8601 Complete date](http://www.w3.org/TR/NOTE-datetime)
+
+Format is ```YYYY-MM-DD```
 
 ---
 
