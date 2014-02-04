@@ -81,23 +81,22 @@ A development mode is now available that works with both test user credetials an
 
 ####Credentials:
 ```
-_username_ : plaid_test
-
-_correct password_ :    plaid_good  
-_locked password_ :     plaid_locked  
-_bad password_ :        _anything else_  
+username:           plaid_test
+correct password:   plaid_good
+locked password:    plaid_locked
+bad password:       anything else
 ```
 
 ####For Question MFA:
 ```
-_correct answer_ : tomato  
-_bad answer_ : _anything else_
+correct answer:     tomato
+bad answer:         anything else
 ```
 
 ####For Code MFA:
 ```
-_correct answer_ : 1234  
-_bad answer_ : _anything else_
+correct answer:     1234
+bad answer:         anything else
 ```
 
 ####Other:
@@ -127,9 +126,9 @@ We now use standard HTTP response codes for success and failure notifications, a
 ```
 http code 402
 {
-  code: 1200,
-  message: "invalid credentials",
-  resolve: "The username or password provided were not correct."
+  "code": 1200,
+  "message": "invalid credentials",
+  "resolve": "The username or password provided were not correct."
 }
 ```
 
@@ -145,13 +144,13 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 (Applicable on Chase and Bank of America)
 ```
 {
-  type: "list",
-  mfa: [
-    {mask:"w...m@plaid.com", type:"email"},
-    {mask:"xxx-xxx-9135", type:"phone"},
-    {mask:"SafePass Card", type:"card"}
+  "type": "list",
+  "mfa": [
+    {"mask":"a...z@plaid.com", "type":"email"},
+    {"mask":"xxx-xxx-1234", "type":"phone"},
+    {"mask":"SafePass Card", "type":"card"}
   ]
-  access_token: "xxxxx"
+  "access_token": "xxxxx"
 }
 ```
 
@@ -159,9 +158,9 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 (Applicable on Bank of America)
 ```
 {
-  type: "questions",
-  mfa: [{ "question": "What is your mother's maiden name?" }]
-  access_token: "xxxxx"
+  "type": "questions",
+  "mfa": [{ "question": "What is your mother's maiden name?" }]
+  "access_token": "xxxxx"
 }
 ```
 
@@ -169,9 +168,9 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 (Applicable on Chase and Bank of America)
 ```
 {
-  type: "device",
-  mfa: "Code sent to ' + 'xxx-xxx-9135"
-  access_token: "xxxxx"
+  "type": "device",
+  "mfa": "Code sent to ' + 'xxx-xxx-1234"
+  "access_token": "xxxxx"
 }
 ```
 
@@ -179,12 +178,18 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 
 ##Category Response
 
-```_category``` is now ```category``` which is an array of the hierarch, and ```_category.id``` is now ```category_id```  
+```_category``` is now ```category``` which is an array of the hierarchy, and ```_category.id``` is now ```category_id```  
 ex.  
-```{  
-  "category": ["Food & Drink","Restaurants","French"],  
+```
+{  
+  "category": [
+    "Food & Drink",
+    "Restaurants",
+    "French"
+  ],  
   "category_id": "52544965f71e87d00700006c"  
-}```
+}
+```
 
 ---
 
@@ -192,7 +197,7 @@ ex.
 
 The returned date is now in accordance with [ISO 8601 Complete date](http://www.w3.org/TR/NOTE-datetime)
 
-Format is ```YYYY-MM-DD```
+Format is ```YYYY-MM-DD```.
 
 ---
 
