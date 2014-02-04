@@ -160,7 +160,7 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 ```
 {
   type: "questions",
-  mfa: [{ question: 'What is your mothers maiden name?' }]
+  mfa: [{ "question": "What is your mother's maiden name?" }]
   access_token: "xxxxx"
 }
 ```
