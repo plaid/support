@@ -155,14 +155,12 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 }
 ```
 
-###Question type
+###Question type, note change of mfa to an array of objects
 (Applicable on Bank of America)
 ```
 {
-  type: "question",
-  mfa: {
-    question: 'What is your mothers maiden name?'
-  }
+  type: "questions",
+  mfa: [{ question: 'What is your mothers maiden name?' }]
   access_token: "xxxxx"
 }
 ```
@@ -171,7 +169,7 @@ When an MFA credential is required, a ```201``` HTTP code will be returned.
 (Applicable on Chase and Bank of America)
 ```
 {
-  type: "code",
+  type: "device",
   mfa: "Code sent to ' + 'xxx-xxx-9135"
   access_token: "xxxxx"
 }
