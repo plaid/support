@@ -3,7 +3,7 @@ Plaid API, release v2.02
 
 ##Overview
 
-We've made some major changes to the API, some of which are breaking to current users. Our previous domain (api-dev.plaid.io) will remain active with the old version for the forseeable future while users migrate.
+We've made some major changes to the API, some of which are breaking to current users. Our previous domain (api-dev.plaid.io) will remain active with the old version for the immediate future while users migrate.
 
 Changes are as follows:
  * Domain and Route Changes
@@ -63,13 +63,13 @@ Routes have been condensed, and only the following are now active:
 
 
 ####Categories
-#####All Categories:
+######All Categories:
 ```GET```  [/category](https://tartan.plaid.com/category) (new route)
 
-#####Category by ID
+######Category by ID
 ```GET```  [/category/id](https://tartan.plaid.com/category/id/)  
 
-#####Category by Mapping
+######Category by Mapping
 ```GET```  [/category/map](https://tartan.plaid.com/category/map)
 
 
