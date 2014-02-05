@@ -2,7 +2,7 @@
 
 Below you will find details for our various response codes.
 
-HTTP | Code | Type | Details
+HTTP | Code | Message | Resolve
 --- | --- | --- | --- 
 ```400```| ```1000```|*access_token missing*|You need to include the access_token that you received from the original submit call.
 ```400```| ```1001```|*type missing*|You need to include a type parameter. Ex. bofa, wells, amex, chase, citi, etc.
