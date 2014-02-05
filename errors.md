@@ -42,4 +42,6 @@ HTTP | Code | Message | Resolve
 ```404```| ```1605```|*user not found*|User was deleted from our system but did exist at one point.
 ```404```| ```1610```|*item not found*|No matching items found; go add an account!
 ```501```| ```1700```|*extractor error*|We failed to pull the required information from the institution - make sure the user can access their account; we have been notified.
-```502```| ```1701```|*extractor error retry*|We failed to pull the required information from the institution - please resubmit this query.
+```502```| ```1701```|*extractor error retry*|We failed to pull the required information from the institution - please
+resubmit this query.
+```500```| ```1702```|*plaid error*|An unexpected error has occurred on our systems; we've been notified and are looking into it!'
