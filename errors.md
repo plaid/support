@@ -29,6 +29,7 @@ HTTP | Code | Message | Resolve
 ```402```| ```1206```|*account not setup*|The account has not been fully set up. Please prompt the user to visit the issuing institution's site and finish the setup process.
 ```402```| ```1207```|*country not supported*|We're United States-only at this point!
 ```402```| ```1208```|*mfa not supported*|This account requires MFA to access - we're currently not supporting MFA through this institution.
+```402```| ```1209```|*invalid pin*|The pin provided was not correct.
 ```404```| ```1300```|*institution not available*|This institution is not yet available on the Plaid API.
 ```404```| ```1500```|*unable to map category*|Double check the provided category mapping.
 ```404```| ```1501```|*unable to find category*|Double check the provided category ID.
