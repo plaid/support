@@ -32,8 +32,8 @@ HTTP | Code | Message | Resolve
 ```402```| ```1209```|*invalid pin*|The pin provided was not correct.
 ```404```| ```1300```|*institution not available*|Double-check the provided institution ID..
 ```404```| ```1301```|*unable to find institution*|This institution is not yet available on the Plaid API.
-```404```| ```1500```|*unable to map category*|Double check the provided category mapping.
-```404```| ```1501```|*unable to find category*|Double check the provided category ID.
+```404```| ```1500```|*unable to map category*|Double-check the provided category mapping.
+```404```| ```1501```|*unable to find category*|Double-check the provided category ID.
 ```400```| ```1502```|*type required*|You must include a type parameter.
 ```400```| ```1503```|*invalid type*|The specified type is not supported.
 ```400```| ```1504```|*mapping required*|You must include a mapping parameter.
