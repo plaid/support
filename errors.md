@@ -42,6 +42,7 @@ HTTP | Code | Message | Resolve
 ```404```| ```1600```|*product not found*|This product doesn't exist yet, we're actually not sure how you reached this error...
 ```404```| ```1601```|*product not available*|This product is not yet available for this institution.
 ```404```| ```1605```|*user not found*|User was deleted from our system but did exist at one point.
+```404```| ```1606```|*account not found*|The account ID provided was not correct.
 ```404```| ```1610```|*item not found*|No matching items found; go add an account!
 ```501```| ```1700```|*extractor error*|We failed to pull the required information from the institution - make sure the user can access their account; we have been notified.  
 ```502```| ```1701```|*extractor error retry*|We failed to pull the required information from the institution - please resubmit this query.
