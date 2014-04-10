@@ -1,6 +1,6 @@
 #FI Data Availability#
 
-Below are details regarding the historical data available through the Plaid API, by Financial Institution and account type.
+Below are details regarding the historical data available for each Financial Institution by account type.
 
 Financial Institution | Credit | Depository
 --- | --- | ---
