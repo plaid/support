@@ -43,6 +43,7 @@ HTTP | Code | Message | Resolve
 ```402```| ```1211```|*account not supported*|The SafePass rules for this Bank of America account restrict external access. To resolve, please disable "Require SafePass to sign in to Online Banking".|
 ```402```| ```1213```|*invalid last parameter*|Last must be a valid transaction _id.|
 ```402```| ```1214```|*invalid state*|We either could not understand the state you sent or the state is not supported by the institution.|
+```402```| ```1215```|*mfa reset*|MFA access has changed or this application's access has been revoked. Please submit a PATCH call to resolve.|
 ```402```| ```1302```|*institution not responding*|The institution is failing to respond to our request, if you resubmit the query the request may go through.|
 ```402```| ```1303```|*institution down*|The institution is down for an indeterminate amount of time, if you resubmit in a couple hours it may go through.|
 ```404```| ```1300```|*institution not available*|This institution is not yet available on the Plaid API.|
