@@ -1,6 +1,6 @@
 #Categories#
 
-Below, you will find the Plaid entity category hierarchy and category ID's. These category mappings are updated infrequently - that end, we recommend that you verify the mappings and ID'd from time to time. If you are using our external entity ID's, please refer to [Factual](http://www.factual.com/data/t/place-categories) or [Foursquare](https://developer.foursquare.com/overview/venues.html) for the relevant category data.
+Below, you will find the Plaid entity category hierarchy and category ID's. These category mappings are updated infrequently - to that end, we recommend that you verify the mappings and IDs from time to time.
 
 | 0 | 1 | 2 | ID |
 | --- | --- | --- | --- |
