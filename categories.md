@@ -70,7 +70,6 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Community | Senior Citizen Services |  | 52544965f71e87d00700003c |
 | Community | Senior Citizen Services | Retirement | 52544965f71e87d00700003d |
 | Community | Utilities |  | 52544965f71e87d00700003e |
-| Fees & Payments |  |  | 52544965f71e87d007000040 |
 | Food and Drink |  |  | 52545fb002dc224334000000 |
 | Food and Drink | Breweries |  | 52544965f71e87d007000041 |
 | Food and Drink | Internet Cafes |  | 52544965f71e87d007000042 |
