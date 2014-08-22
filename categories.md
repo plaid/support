@@ -144,7 +144,6 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Food and Drink | Restaurants | Vegan and Vegetarian | 52544965f71e87d007000086 |
 | Food and Drink | Restaurants | Winery | 52544965f71e87d007000087 |
 | Interest |  |  | 537426db70d8a0ac65000005 |
-| Miscellaneous |  |  | 52544965f71e87d007000088 |
 | Parks and Outdoors |  |  | 52544965f71e87d007000089 |
 | Parks and Outdoors | Aquarium |  | 52544965f71e87d00700008a |
 | Parks and Outdoors | Athletic Fields |  | 52544965f71e87d00700008b |
@@ -233,8 +232,8 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Professional | Entertainment |  | 52544965f71e87d0070000da |
 | Professional | Entertainment | Media | 52544965f71e87d0070000db |
 | Professional | Financial |  | 52544965f71e87d0070000dc |
-| Professional | Financial | Accounting and Bookkeeping | 52544965f71e87d0070000dd |
 | Professional | Financial | ATMs | 52544965f71e87d0070000de |
+| Professional | Financial | Accounting and Bookkeeping | 52544965f71e87d0070000dd |
 | Professional | Financial | Banking and Finance | 52544965f71e87d0070000df |
 | Professional | Financial | Business Brokers and Franchises | 52544965f71e87d0070000e0 |
 | Professional | Financial | Check Cashing | 52544965f71e87d0070000e1 |
@@ -453,6 +452,7 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Shops | Pets |  | 52544965f71e87d0070001ab |
 | Shops | Pharmacies |  | 52544965f71e87d0070001ac |
 | Shops | Photos and Frames |  | 52544965f71e87d0070001ad |
+| Shops | Shoes |  | 52544965f71e87d0070001ae |
 | Shops | Shopping Centers and Malls |  | 52544965f71e87d0070001af |
 | Shops | Sporting Goods |  | 52544965f71e87d0070001b0 |
 | Shops | Supermarkets and Groceries |  | 52544965f71e87d0070001b1 |
@@ -464,8 +464,8 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Shops | Wholesale |  | 52544965f71e87d0070001b7 |
 | Tax |  |  | 5374270e70d8a0ac65000008 |
 | Transfer |  |  | 5374271470d8a0ac65000009 |
-| Transfer | Account Transfer |  | 5374272370d8a0ac6500000c |
 | Transfer | ACH |  | 5374276e70d8a0ac6500001a |
+| Transfer | Account Transfer |  | 5374272370d8a0ac6500000c |
 | Transfer | Billpay |  | 5374272f70d8a0ac6500000e |
 | Transfer | Check |  | 5374276270d8a0ac65000018 |
 | Transfer | Credit |  | 537431254fd7f2f065000004 |
@@ -477,6 +477,7 @@ Below, you will find the Plaid entity category hierarchy and category ID's. Thes
 | Transfer | Payroll |  | 5374275870d8a0ac65000016 |
 | Transfer | Payroll | Benefits | 5374275d70d8a0ac65000017 |
 | Transfer | Third Party |  | 5374273470d8a0ac6500000f |
+| Transfer | Third Party | Chase QuickPay | 53dafb059a73a67b02e292c9 |
 | Transfer | Third Party | Coinbase | 5374275370d8a0ac65000015 |
 | Transfer | Third Party | Dwolla | 5374273e70d8a0ac65000011 |
 | Transfer | Third Party | Paypal | 5374274370d8a0ac65000012 |
