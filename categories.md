@@ -1,6 +1,6 @@
 #Categories#
 
-Below you will find the Plaid category hierarchy, including category types and IDs. These category mappings are updated infrequently - to that end, we recommend that you verify the mappings and IDs from time to time.
+Below you will find the Plaid category hierarchy, including category types and IDs. These category mappings are updated occasionally - to that end, we recommend that you verify the mappings and IDs from time to time.
 
 | 0 | 1 | 2 | ID | Type |
 | --- | --- | --- | --- | --- |
