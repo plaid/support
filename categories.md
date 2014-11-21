@@ -1,515 +1,589 @@
 #Categories#
 
-Below, you will find the Plaid entity category hierarchy and category ID's. These category mappings are updated infrequently - to that end, we recommend that you verify the mappings and IDs from time to time.
+Below you will find the Plaid category hierarchy, including category types and IDs. These category mappings are updated infrequently - to that end, we recommend that you verify the mappings and IDs from time to time.
 
-| 0 | 1 | 2 | ID |
-| --- | --- | --- | --- |
-| Arts and Entertainment |  |  | 52544965f71e87d007000002 |
-| Arts and Entertainment | Arcades and Amusement Parks |  | 52544965f71e87d007000003 |
-| Arts and Entertainment | Art Dealers and Galleries |  | 52544965f71e87d007000004 |
-| Arts and Entertainment | Billiards and Pool |  | 52544965f71e87d007000005 |
-| Arts and Entertainment | Bowling |  | 52544965f71e87d007000006 |
-| Arts and Entertainment | Casinos and Gaming |  | 52544965f71e87d007000007 |
-| Arts and Entertainment | Circuses and Carnivals |  | 52544965f71e87d007000008 |
-| Arts and Entertainment | Dance Halls and Saloons |  | 52544965f71e87d007000009 |
-| Arts and Entertainment | Entertainment |  | 52544965f71e87d00700000a |
-| Arts and Entertainment | Fairgrounds and Rodeos |  | 52544965f71e87d00700000b |
-| Arts and Entertainment | Go Carts |  | 52544965f71e87d00700000c |
-| Arts and Entertainment | Hookah Lounges |  | 52544965f71e87d00700000d |
-| Arts and Entertainment | Miniature Golf |  | 52544965f71e87d00700000e |
-| Arts and Entertainment | Movie Theatres |  | 52544965f71e87d00700000f |
-| Arts and Entertainment | Museums |  | 52544965f71e87d007000010 |
-| Arts and Entertainment | Music and Show Venues |  | 52544965f71e87d007000011 |
-| Arts and Entertainment | Party Centers |  | 52544965f71e87d007000012 |
-| Arts and Entertainment | Psychics and Astrologers |  | 52544965f71e87d007000013 |
-| Arts and Entertainment | Social Clubs |  | 52544965f71e87d007000014 |
-| Arts and Entertainment | Sports Venues |  | 52544965f71e87d007000015 |
-| Bank Fees |  |  | 537426b570d8a0ac65000001 |
-| Bank Fees | ATM |  | 537426c870d8a0ac65000003 |
-| Bank Fees | Overdraft |  | 537426c070d8a0ac65000002 |
-| Cash Advance |  |  | 537426d070d8a0ac65000004 |
-| Community |  |  | 52544965f71e87d00700003f |
-| Community | Animal Shelter |  | 52544965f71e87d007000016 |
-| Community | Assisted Living Services |  | 52544965f71e87d007000017 |
-| Community | Assisted Living Services | Caretakers | 52544965f71e87d007000018 |
-| Community | Assisted Living Services | Facilities and Nursing Homes | 52544965f71e87d007000019 |
-| Community | Cemetery |  | 52544965f71e87d00700001a |
-| Community | Day Care and Preschools |  | 52544965f71e87d00700001b |
-| Community | Disabled Persons Services |  | 52544965f71e87d00700001c |
-| Community | Drug and Alcohol Services |  | 52544965f71e87d00700001d |
-| Community | Education |  | 52544965f71e87d00700001e |
-| Community | Education | Adult Education | 52544965f71e87d00700001f |
-| Community | Education | Art School | 52544965f71e87d007000020 |
-| Community | Education | Colleges and Universities | 52544965f71e87d007000021 |
-| Community | Education | Computer Training | 52544965f71e87d007000022 |
-| Community | Education | Culinary Lessons and Schools | 52544965f71e87d007000023 |
-| Community | Education | Driving Schools | 52544965f71e87d007000024 |
-| Community | Education | Fraternities and Sororities | 52544965f71e87d007000025 |
-| Community | Education | Primary and Secondary Schools | 52544965f71e87d007000026 |
-| Community | Education | Tutoring and Educational Services | 52544965f71e87d007000027 |
-| Community | Education | Vocational Schools | 52544965f71e87d007000028 |
-| Community | Government Departments and Agencies |  | 52544965f71e87d007000029 |
-| Community | Government Lobbyists |  | 52544965f71e87d00700002a |
-| Community | Housing Assistance and Shelters |  | 52544965f71e87d00700002b |
-| Community | Law Enforcement |  | 52544965f71e87d00700002c |
-| Community | Law Enforcement | Fire Stations | 52544965f71e87d00700002d |
-| Community | Law Enforcement | Police Stations | 52544965f71e87d00700002e |
-| Community | Libraries |  | 52544965f71e87d00700002f |
-| Community | Military |  | 52544965f71e87d007000030 |
-| Community | Organizations and Associations |  | 52544965f71e87d007000031 |
-| Community | Organizations and Associations | Charities and Non-Profits | 52544965f71e87d007000032 |
-| Community | Organizations and Associations | Environmental | 52544965f71e87d007000033 |
-| Community | Organizations and Associations | Youth Organizations | 52544965f71e87d007000034 |
-| Community | Post Offices |  | 52544965f71e87d007000035 |
-| Community | Public and Social Services |  | 52544965f71e87d007000036 |
-| Community | Religious |  | 52544965f71e87d007000037 |
-| Community | Religious | Churches | 52544965f71e87d007000038 |
-| Community | Religious | Mosques | 52544965f71e87d007000039 |
-| Community | Religious | Synagogues | 52544965f71e87d00700003a |
-| Community | Religious | Temple | 52544965f71e87d00700003b |
-| Community | Senior Citizen Services |  | 52544965f71e87d00700003c |
-| Community | Senior Citizen Services | Retirement | 52544965f71e87d00700003d |
-| Community | Utilities |  | 52544965f71e87d00700003e |
-| Food and Drink |  |  | 52545fb002dc224334000000 |
-| Food and Drink | Breweries |  | 52544965f71e87d007000041 |
-| Food and Drink | Internet Cafes |  | 52544965f71e87d007000042 |
-| Food and Drink | Nightlife |  | 52545fb002dc224334000005 |
-| Food and Drink | Nightlife | Adult Entertainment | 52544965f71e87d007000043 |
-| Food and Drink | Nightlife | Bar | 52544965f71e87d007000044 |
-| Food and Drink | Nightlife | Hotel Lounge | 52544965f71e87d007000045 |
-| Food and Drink | Nightlife | Jazz and Blues Cafe | 52544965f71e87d007000046 |
-| Food and Drink | Nightlife | Karaoke | 52544965f71e87d007000047 |
-| Food and Drink | Nightlife | Night Clubs | 52544965f71e87d007000048 |
-| Food and Drink | Nightlife | Sports Bar | 52544965f71e87d007000049 |
-| Food and Drink | Nightlife | Strip Club | 52544965f71e87d00700004a |
-| Food and Drink | Nightlife | Wine Bar | 52544965f71e87d00700004b |
-| Food and Drink | Restaurants |  | 52544965f71e87d00700004c |
-| Food and Drink | Restaurants | Afghan | 52544965f71e87d00700004d |
-| Food and Drink | Restaurants | African | 52544965f71e87d00700004e |
-| Food and Drink | Restaurants | American | 52544965f71e87d00700004f |
-| Food and Drink | Restaurants | Asian | 52544965f71e87d007000050 |
-| Food and Drink | Restaurants | Australian | 52544965f71e87d007000051 |
-| Food and Drink | Restaurants | Bagel Shop | 52544965f71e87d007000052 |
-| Food and Drink | Restaurants | Bakery | 52544965f71e87d007000053 |
-| Food and Drink | Restaurants | Barbecue | 52544965f71e87d007000054 |
-| Food and Drink | Restaurants | Brazilian | 52544965f71e87d007000055 |
-| Food and Drink | Restaurants | Breakfast Spot | 52544965f71e87d007000056 |
-| Food and Drink | Restaurants | Burgers | 52544965f71e87d007000057 |
-| Food and Drink | Restaurants | Burrito | 52544965f71e87d007000058 |
-| Food and Drink | Restaurants | Cafe | 52544965f71e87d007000059 |
-| Food and Drink | Restaurants | Cajun | 52544965f71e87d00700005a |
-| Food and Drink | Restaurants | Caribbean | 52544965f71e87d00700005b |
-| Food and Drink | Restaurants | Chinese | 52544965f71e87d00700005c |
-| Food and Drink | Restaurants | Coffee Shop | 52544965f71e87d00700005d |
-| Food and Drink | Restaurants | Cuban | 52544965f71e87d00700005e |
-| Food and Drink | Restaurants | Cupcake Shop | 52544965f71e87d00700005f |
-| Food and Drink | Restaurants | Delis | 52544965f71e87d007000060 |
-| Food and Drink | Restaurants | Dessert | 52544965f71e87d007000061 |
-| Food and Drink | Restaurants | Diners | 52544965f71e87d007000062 |
-| Food and Drink | Restaurants | Distillery | 52544965f71e87d007000063 |
-| Food and Drink | Restaurants | Donuts | 52544965f71e87d007000064 |
-| Food and Drink | Restaurants | Eastern European | 52544965f71e87d007000065 |
-| Food and Drink | Restaurants | Ethiopian | 52544965f71e87d007000066 |
-| Food and Drink | Restaurants | Falafel | 52544965f71e87d007000067 |
-| Food and Drink | Restaurants | Fast Food | 52544965f71e87d007000068 |
-| Food and Drink | Restaurants | Filipino | 52544965f71e87d007000069 |
-| Food and Drink | Restaurants | Fish and Chips | 52544965f71e87d00700006a |
-| Food and Drink | Restaurants | Food Truck | 52544965f71e87d00700006b |
-| Food and Drink | Restaurants | French | 52544965f71e87d00700006c |
-| Food and Drink | Restaurants | Gastropub | 52544965f71e87d00700006d |
-| Food and Drink | Restaurants | German | 52544965f71e87d00700006e |
-| Food and Drink | Restaurants | Greek | 52544965f71e87d00700006f |
-| Food and Drink | Restaurants | Ice Cream | 52544965f71e87d007000070 |
-| Food and Drink | Restaurants | Indian | 52544965f71e87d007000071 |
-| Food and Drink | Restaurants | Indonesian | 52544965f71e87d007000072 |
-| Food and Drink | Restaurants | Italian | 52544965f71e87d007000073 |
-| Food and Drink | Restaurants | Japanese | 52544965f71e87d007000074 |
-| Food and Drink | Restaurants | Juice Bar | 52544965f71e87d007000075 |
-| Food and Drink | Restaurants | Korean | 52544965f71e87d007000076 |
-| Food and Drink | Restaurants | Latin American | 52544965f71e87d007000077 |
-| Food and Drink | Restaurants | Mediterranean | 52544965f71e87d007000078 |
-| Food and Drink | Restaurants | Mexican | 52544965f71e87d007000079 |
-| Food and Drink | Restaurants | Middle Eastern | 52544965f71e87d00700007a |
-| Food and Drink | Restaurants | Moroccan | 52544965f71e87d00700007b |
-| Food and Drink | Restaurants | Pizza | 52544965f71e87d00700007c |
-| Food and Drink | Restaurants | Portuguese | 52544965f71e87d00700007d |
-| Food and Drink | Restaurants | Scandinavian | 52544965f71e87d00700007e |
-| Food and Drink | Restaurants | Seafood | 52544965f71e87d00700007f |
-| Food and Drink | Restaurants | Spanish | 52544965f71e87d007000080 |
-| Food and Drink | Restaurants | Steakhouses | 52544965f71e87d007000081 |
-| Food and Drink | Restaurants | Sushi | 52544965f71e87d007000082 |
-| Food and Drink | Restaurants | Swiss | 52544965f71e87d007000083 |
-| Food and Drink | Restaurants | Thai | 52544965f71e87d007000084 |
-| Food and Drink | Restaurants | Turkish | 52544965f71e87d007000085 |
-| Food and Drink | Restaurants | Vegan and Vegetarian | 52544965f71e87d007000086 |
-| Food and Drink | Restaurants | Winery | 52544965f71e87d007000087 |
-| Interest |  |  | 537426db70d8a0ac65000005 |
-| Parks and Outdoors |  |  | 52544965f71e87d007000089 |
-| Parks and Outdoors | Aquarium |  | 52544965f71e87d00700008a |
-| Parks and Outdoors | Athletic Fields |  | 52544965f71e87d00700008b |
-| Parks and Outdoors | Baseball |  | 52544965f71e87d00700008c |
-| Parks and Outdoors | Basketball |  | 52544965f71e87d00700008d |
-| Parks and Outdoors | Batting Cages |  | 52544965f71e87d00700008e |
-| Parks and Outdoors | Boating |  | 52544965f71e87d00700008f |
-| Parks and Outdoors | Campgrounds and RV Parks |  | 52544965f71e87d007000090 |
-| Parks and Outdoors | Canoes and Kayaks |  | 52544965f71e87d007000091 |
-| Parks and Outdoors | Combat Sports |  | 52544965f71e87d007000092 |
-| Parks and Outdoors | Cycling |  | 52544965f71e87d007000093 |
-| Parks and Outdoors | Dance |  | 52544965f71e87d007000094 |
-| Parks and Outdoors | Equestrian |  | 52544965f71e87d007000095 |
-| Parks and Outdoors | Football |  | 52544965f71e87d007000096 |
-| Parks and Outdoors | Golf |  | 52544965f71e87d007000097 |
-| Parks and Outdoors | Gun Ranges |  | 52544965f71e87d007000098 |
-| Parks and Outdoors | Gymnastics |  | 52544965f71e87d007000099 |
-| Parks and Outdoors | Gyms and Fitness Centers |  | 52544965f71e87d00700009a |
-| Parks and Outdoors | Hiking |  | 52544965f71e87d00700009b |
-| Parks and Outdoors | Hockey |  | 52544965f71e87d00700009c |
-| Parks and Outdoors | Hot Air Balloons |  | 52544965f71e87d00700009d |
-| Parks and Outdoors | Hunting and Fishing |  | 52544965f71e87d00700009e |
-| Parks and Outdoors | Landmarks |  | 52544965f71e87d00700009f |
-| Parks and Outdoors | Landmarks | Buildings and Structures | 52544965f71e87d0070000a0 |
-| Parks and Outdoors | Landmarks | Gardens | 52544965f71e87d0070000a1 |
-| Parks and Outdoors | Landmarks | Historic Sites | 52544965f71e87d0070000a2 |
-| Parks and Outdoors | Landmarks | Monuments and Memorials | 52544965f71e87d0070000a3 |
-| Parks and Outdoors | Outdoors |  | 52544965f71e87d0070000a4 |
-| Parks and Outdoors | Outdoors | Beaches | 52544965f71e87d0070000a5 |
-| Parks and Outdoors | Outdoors | Forests | 52544965f71e87d0070000a6 |
-| Parks and Outdoors | Outdoors | Lakes | 52544965f71e87d0070000a7 |
-| Parks and Outdoors | Outdoors | Mountains | 52544965f71e87d0070000a8 |
-| Parks and Outdoors | Outdoors | Rivers | 52544965f71e87d0070000a9 |
-| Parks and Outdoors | Paintball |  | 52544965f71e87d0070000aa |
-| Parks and Outdoors | Parks |  | 52544965f71e87d0070000ab |
-| Parks and Outdoors | Parks | Natural Parks | 52544965f71e87d0070000ac |
-| Parks and Outdoors | Parks | Picnic Areas | 52544965f71e87d0070000ad |
-| Parks and Outdoors | Parks | Playgrounds | 52544965f71e87d0070000ae |
-| Parks and Outdoors | Personal Trainers |  | 52544965f71e87d0070000af |
-| Parks and Outdoors | Race Tracks |  | 52544965f71e87d0070000b0 |
-| Parks and Outdoors | Racquet Sports |  | 52544965f71e87d0070000b1 |
-| Parks and Outdoors | Racquetball |  | 52544965f71e87d0070000b2 |
-| Parks and Outdoors | Rafting |  | 52544965f71e87d0070000b3 |
-| Parks and Outdoors | Recreation Centers |  | 52544965f71e87d0070000b4 |
-| Parks and Outdoors | Rock Climbing |  | 52544965f71e87d0070000b5 |
-| Parks and Outdoors | Running |  | 52544965f71e87d0070000b6 |
-| Parks and Outdoors | Scuba Diving |  | 52544965f71e87d0070000b7 |
-| Parks and Outdoors | Skating |  | 52544965f71e87d0070000b8 |
-| Parks and Outdoors | Skydiving |  | 52544965f71e87d0070000b9 |
-| Parks and Outdoors | Snow Sports |  | 52544965f71e87d0070000ba |
-| Parks and Outdoors | Soccer |  | 52544965f71e87d0070000bb |
-| Parks and Outdoors | Sports Clubs |  | 52544965f71e87d0070000bc |
-| Parks and Outdoors | Stadiums and Arenas |  | 52544965f71e87d0070000bd |
-| Parks and Outdoors | Swimming |  | 52544965f71e87d0070000be |
-| Parks and Outdoors | Tennis |  | 52544965f71e87d0070000bf |
-| Parks and Outdoors | Water Sports |  | 52544965f71e87d0070000c0 |
-| Parks and Outdoors | Yoga and Pilates |  | 52544965f71e87d0070000c1 |
-| Parks and Outdoors | Zoo |  | 52544965f71e87d0070000c2 |
-| Paycheck |  |  | 5374270870d8a0ac65000007 |
-| Payment |  |  | 53742c114fd7f2f065000001 |
-| Payment | Credit Card |  | 537432ae4fd7f2f065000005 |
-| Professional |  |  | 52544965f71e87d0070000c3 |
-| Professional | Advertising and Marketing |  | 52544965f71e87d0070000c4 |
-| Professional | Advertising and Marketing | Advertising Agencies and Media Buyers | 52544965f71e87d0070000c5 |
-| Professional | Advertising and Marketing | Creative Services | 52544965f71e87d0070000c6 |
-| Professional | Advertising and Marketing | Direct Mail and Email Marketing Services | 52544965f71e87d0070000c7 |
-| Professional | Advertising and Marketing | Market Research and Consulting | 52544965f71e87d0070000c8 |
-| Professional | Advertising and Marketing | Online Advertising | 52544965f71e87d0070000c9 |
-| Professional | Advertising and Marketing | Print/TV/Radio and Outdoor Advertising | 52544965f71e87d0070000ca |
-| Professional | Advertising and Marketing | Promotional Items | 52544965f71e87d0070000cb |
-| Professional | Advertising and Marketing | Public Relations | 52544965f71e87d0070000cc |
-| Professional | Advertising and Marketing | Search Engine Marketing and Optimization | 52544965f71e87d0070000cd |
-| Professional | Advertising and Marketing | Writing/Copywriting and Technical Writing | 52544965f71e87d0070000ce |
-| Professional | Agriculture and Forestry |  | 52544965f71e87d0070000cf |
-| Professional | Art Restoration |  | 52544965f71e87d0070000d0 |
-| Professional | Audiovisual |  | 52544965f71e87d0070000d1 |
-| Professional | Automation and Control Systems |  | 52544965f71e87d0070000d2 |
-| Professional | Business and Strategy Consulting |  | 52544965f71e87d0070000d3 |
-| Professional | Chemicals and Gasses |  | 52544965f71e87d0070000d4 |
-| Professional | Cleaning |  | 533a3ac184f6ff3e5383d0dd |
-| Professional | Computers |  | 52544965f71e87d0070000d5 |
-| Professional | Corporate HQ |  | 52544965f71e87d0070000d6 |
-| Professional | Credit Counseling and Bankruptcy Services |  | 52544965f71e87d0070000d7 |
-| Professional | Employment Agencies |  | 52544965f71e87d0070000d8 |
-| Professional | Engineering |  | 52544965f71e87d0070000d9 |
-| Professional | Entertainment |  | 52544965f71e87d0070000da |
-| Professional | Entertainment | Media | 52544965f71e87d0070000db |
-| Professional | Financial |  | 52544965f71e87d0070000dc |
-| Professional | Financial | ATMs | 52544965f71e87d0070000de |
-| Professional | Financial | Accounting and Bookkeeping | 52544965f71e87d0070000dd |
-| Professional | Financial | Banking and Finance | 52544965f71e87d0070000df |
-| Professional | Financial | Business Brokers and Franchises | 52544965f71e87d0070000e0 |
-| Professional | Financial | Check Cashing | 52544965f71e87d0070000e1 |
-| Professional | Financial | Collections | 52544965f71e87d0070000e2 |
-| Professional | Financial | Financial Planning and Investments | 52544965f71e87d0070000e3 |
-| Professional | Financial | Fund Raising | 52544965f71e87d0070000e4 |
-| Professional | Financial | Loans and Mortgages | 52544965f71e87d0070000e5 |
-| Professional | Financial | Stock Brokers | 52544965f71e87d0070000e6 |
-| Professional | Financial | Student Aid and Grants | 52544965f71e87d0070000e7 |
-| Professional | Financial | Taxes | 5320c44f0e388ee3443a6b3e |
-| Professional | Geological |  | 52544965f71e87d0070000e8 |
-| Professional | Healthcare Services |  | 52544965f71e87d0070000e9 |
-| Professional | Healthcare Services | Acupuncture | 52544965f71e87d0070000ea |
-| Professional | Healthcare Services | Alternative Medicine | 52544965f71e87d0070000eb |
-| Professional | Healthcare Services | Blood Banks and Centers | 52544965f71e87d0070000ec |
-| Professional | Healthcare Services | Chiropractors | 52544965f71e87d0070000ed |
-| Professional | Healthcare Services | Counseling and Therapy | 52544965f71e87d0070000ee |
-| Professional | Healthcare Services | Dentists | 52544965f71e87d0070000ef |
-| Professional | Healthcare Services | Emergency Services | 52544965f71e87d0070000f0 |
-| Professional | Healthcare Services | Hospitals/Clinics and Medical Centers | 52544965f71e87d0070000f1 |
-| Professional | Healthcare Services | Medical Supplies and Labs | 52544965f71e87d0070000f2 |
-| Professional | Healthcare Services | Mental Health | 52544965f71e87d0070000f3 |
-| Professional | Healthcare Services | Nurses | 52544965f71e87d0070000f4 |
-| Professional | Healthcare Services | Nutritionists | 52544965f71e87d0070000f5 |
-| Professional | Healthcare Services | Physical Therapy | 52544965f71e87d0070000f6 |
-| Professional | Healthcare Services | Podiatrists | 52544965f71e87d0070000f7 |
-| Professional | Healthcare Services | Pregnancy and Sexual Health | 52544965f71e87d0070000f8 |
-| Professional | Healthcare Services | Psychologists | 52544965f71e87d0070000f9 |
-| Professional | Home Improvement |  | 52544965f71e87d0070000fa |
-| Professional | Home Improvement | Architects | 52544965f71e87d0070000fb |
-| Professional | Home Improvement | Carpenters | 52544965f71e87d0070000fc |
-| Professional | Home Improvement | Carpet and Flooring | 52544965f71e87d0070000fd |
-| Professional | Home Improvement | Contractors | 52544965f71e87d0070000fe |
-| Professional | Home Improvement | Doors and Windows | 52544965f71e87d0070000ff |
-| Professional | Home Improvement | Electricians | 52544965f71e87d007000100 |
-| Professional | Home Improvement | Fences/Fireplaces and Garage Doors | 52544965f71e87d007000101 |
-| Professional | Home Improvement | Hardware and Services | 52544965f71e87d007000102 |
-| Professional | Home Improvement | Heating/Ventilating and Air Conditioning | 52544965f71e87d007000103 |
-| Professional | Home Improvement | Home Appliances | 52544965f71e87d007000104 |
-| Professional | Home Improvement | Home Inspection Services | 52544965f71e87d007000105 |
-| Professional | Home Improvement | Housewares | 52544965f71e87d007000106 |
-| Professional | Home Improvement | Interior Design | 52544965f71e87d007000107 |
-| Professional | Home Improvement | Kitchens | 52544965f71e87d007000108 |
-| Professional | Home Improvement | Landscaping and Gardeners | 52544965f71e87d007000109 |
-| Professional | Home Improvement | Lighting Fixtures | 52544965f71e87d00700010a |
-| Professional | Home Improvement | Mobile Homes | 52544965f71e87d00700010b |
-| Professional | Home Improvement | Movers | 52544965f71e87d00700010c |
-| Professional | Home Improvement | Painting | 52544965f71e87d00700010d |
-| Professional | Home Improvement | Pest Control | 52544965f71e87d00700010e |
-| Professional | Home Improvement | Plumbing | 52544965f71e87d00700010f |
-| Professional | Home Improvement | Pools and Spas | 52544965f71e87d007000110 |
-| Professional | Home Improvement | Roofers | 52544965f71e87d007000111 |
-| Professional | Home Improvement | Storage | 52544965f71e87d007000112 |
-| Professional | Home Improvement | Swimming Pool Maintenance and Services | 52544965f71e87d007000113 |
-| Professional | Home Improvement | Tree Service | 52544965f71e87d007000114 |
-| Professional | Home Improvement | Upholstery | 52544965f71e87d007000115 |
-| Professional | Immigration |  | 52544965f71e87d007000116 |
-| Professional | Import and Export |  | 52544965f71e87d007000117 |
-| Professional | Insurance |  | 52544965f71e87d007000118 |
-| Professional | Internet Services |  | 52544965f71e87d007000119 |
-| Professional | Legal |  | 52544965f71e87d00700011a |
-| Professional | Management |  | 52544965f71e87d00700011b |
-| Professional | Physicians |  | 52544965f71e87d00700011c |
-| Professional | Physicians | Anesthesiologists | 52544965f71e87d00700011d |
-| Professional | Physicians | Cardiologists | 52544965f71e87d00700011e |
-| Professional | Physicians | Dermatologists | 52544965f71e87d00700011f |
-| Professional | Physicians | Ear/Nose and Throat | 52544965f71e87d007000120 |
-| Professional | Physicians | Family Medicine | 52544965f71e87d007000121 |
-| Professional | Physicians | Gastroenterologists | 52544965f71e87d007000122 |
-| Professional | Physicians | General Surgery | 52544965f71e87d007000123 |
-| Professional | Physicians | Internal Medicine | 52544965f71e87d007000124 |
-| Professional | Physicians | Neurologists | 52544965f71e87d007000125 |
-| Professional | Physicians | Obstetricians and Gynecologists | 52544965f71e87d007000126 |
-| Professional | Physicians | Oncologists | 52544965f71e87d007000127 |
-| Professional | Physicians | Ophthalmologists | 52544965f71e87d007000128 |
-| Professional | Physicians | Orthopedic Surgeons | 52544965f71e87d007000129 |
-| Professional | Physicians | Pathologists | 52544965f71e87d00700012a |
-| Professional | Physicians | Pediatricians | 52544965f71e87d00700012b |
-| Professional | Physicians | Plastic Surgeons | 52544965f71e87d00700012c |
-| Professional | Physicians | Psychiatrists | 52544965f71e87d00700012d |
-| Professional | Physicians | Radiologists | 52544965f71e87d00700012e |
-| Professional | Physicians | Respiratory | 52544965f71e87d00700012f |
-| Professional | Physicians | Urologists | 52544965f71e87d007000130 |
-| Professional | Veterinarians |  | 52544965f71e87d007000131 |
-| Professional | Web Design and Development |  | 52544965f71e87d007000132 |
-| Service |  |  | 52544965f71e87d007000133 |
-| Service | Automotive |  | 52681ab08965128406000492 |
-| Service | Automotive | Auto Oil and Lube | 52544965f71e87d007000134 |
-| Service | Automotive | Auto Smog Check | 52544965f71e87d007000135 |
-| Service | Automotive | Auto Tires | 52544965f71e87d007000136 |
-| Service | Automotive | Auto Transmission | 52544965f71e87d007000137 |
-| Service | Automotive | Car Appraisers | 52544965f71e87d007000138 |
-| Service | Automotive | Car Wash and Detail | 52544965f71e87d007000139 |
-| Service | Automotive | Maintenance and Repair | 52544965f71e87d00700013a |
-| Service | Automotive | Motorcycle/Moped and Scooter Repair | 52544965f71e87d00700013b |
-| Service | Automotive | Towing | 52544965f71e87d00700013c |
-| Service | Business Services |  | 5320c25a0e388ee3443a6b38 |
-| Service | Business Services | Printing and Publishing | 5320c25a0e388ee3443a6b39 |
-| Service | Cable |  | 5320c25b0e388ee3443a6b3a |
-| Service | Dating and Escort |  | 533a399a84f6ff3e5383d0dc |
-| Service | Events and Event Planning |  | 52544965f71e87d00700013d |
-| Service | Food and Beverage |  | 52544965f71e87d00700013e |
-| Service | Food and Beverage | Catering | 52544965f71e87d00700013f |
-| Service | Food and Beverage | Distribution | 52544965f71e87d007000140 |
-| Service | Funeral Services |  | 52544965f71e87d007000141 |
-| Service | Household |  | 5320c25f0e388ee3443a6b3d |
-| Service | Human Resources |  | 52544965f71e87d007000142 |
-| Service | Industrial Machinery and Vehicles |  | 52544965f71e87d007000143 |
-| Service | Leather |  | 52544965f71e87d007000144 |
-| Service | Logging and Sawmills |  | 52544965f71e87d007000145 |
-| Service | Machine Shops |  | 52544965f71e87d007000146 |
-| Service | Manufacturing |  | 52544965f71e87d007000147 |
-| Service | Metals |  | 52544965f71e87d007000148 |
-| Service | Packaging |  | 52544965f71e87d007000149 |
-| Service | Paper |  | 52544965f71e87d00700014a |
-| Service | Personal Care |  | 52544965f71e87d00700014b |
-| Service | Personal Care | Dry Cleaning/Ironing and Laundry | 52544965f71e87d00700014c |
-| Service | Personal Care | Hair Removal | 52544965f71e87d00700014d |
-| Service | Personal Care | Hair Salons and Barbers | 52544965f71e87d00700014e |
-| Service | Personal Care | Manicures and Pedicures | 52544965f71e87d00700014f |
-| Service | Personal Care | Massage Clinics and Therapists | 52544965f71e87d007000150 |
-| Service | Personal Care | Piercing | 52544965f71e87d007000151 |
-| Service | Personal Care | Skin Care | 52544965f71e87d007000152 |
-| Service | Personal Care | Spas | 52544965f71e87d007000153 |
-| Service | Personal Care | Tanning Salons | 52544965f71e87d007000154 |
-| Service | Personal Care | Tattooing | 52544965f71e87d007000155 |
-| Service | Petroleum |  | 52544965f71e87d007000156 |
-| Service | Plastics |  | 52544965f71e87d007000157 |
-| Service | Real Estate |  | 52544965f71e87d007000158 |
-| Service | Real Estate | Apartments/Condos and Houses | 52544965f71e87d007000159 |
-| Service | Real Estate | Boarding Houses | 52544965f71e87d00700015a |
-| Service | Real Estate | Building and Land Surveyors | 52544965f71e87d00700015b |
-| Service | Real Estate | Commercial Real Estate | 52544965f71e87d00700015c |
-| Service | Real Estate | Corporate Housing | 52544965f71e87d00700015d |
-| Service | Real Estate | Property Management | 52544965f71e87d00700015e |
-| Service | Real Estate | Real Estate Agents | 52544965f71e87d00700015f |
-| Service | Real Estate | Real Estate Appraiser | 52544965f71e87d007000160 |
-| Service | Real Estate | Real Estate Development and Title Companies | 52544965f71e87d007000161 |
-| Service | Refrigeration and Ice |  | 52544965f71e87d007000162 |
-| Service | Renewable Energy |  | 52544965f71e87d007000163 |
-| Service | Repair Services |  | 52544965f71e87d007000164 |
-| Service | Rubber |  | 52544965f71e87d007000165 |
-| Service | Scientific |  | 52544965f71e87d007000166 |
-| Service | Security and Safety |  | 52544965f71e87d007000167 |
-| Service | Shipping and Freight |  | 52544965f71e87d007000168 |
-| Service | Tailors |  | 52544965f71e87d007000169 |
-| Service | Telecommunication Services |  | 52544965f71e87d00700016a |
-| Service | Textiles |  | 52544965f71e87d00700016b |
-| Service | Tourist Information and Services |  | 52544965f71e87d00700016c |
-| Service | Travel Agents and Tour Operators |  | 52544965f71e87d00700016d |
-| Service | Water and Waste Management |  | 52544965f71e87d00700016e |
-| Service | Welding |  | 52544965f71e87d00700016f |
-| Shops |  |  | 52544965f71e87d007000170 |
-| Shops | Adult |  | 52544965f71e87d007000171 |
-| Shops | Antiques |  | 52544965f71e87d007000172 |
-| Shops | Arts and Crafts |  | 52544965f71e87d007000173 |
-| Shops | Auctions |  | 52544965f71e87d007000174 |
-| Shops | Automotive |  | 52546a49e99997c901000017 |
-| Shops | Automotive | Car Dealers and Leasing | 52544965f71e87d007000175 |
-| Shops | Automotive | Car Parts and Accessories | 52544965f71e87d007000176 |
-| Shops | Automotive | Classic and Antique Car | 52544965f71e87d007000177 |
-| Shops | Automotive | Motorcycles/Mopeds and Scooters | 52544965f71e87d007000178 |
-| Shops | Automotive | RVs and Motor Homes | 52544965f71e87d007000179 |
-| Shops | Automotive | Salvage Yards | 52544965f71e87d00700017a |
-| Shops | Automotive | Used Car Dealers | 52544965f71e87d00700017b |
-| Shops | Beauty Products |  | 52544965f71e87d00700017c |
-| Shops | Bicycles |  | 52544965f71e87d00700017d |
-| Shops | Bookstores |  | 52544965f71e87d00700017e |
-| Shops | Cards and Stationery |  | 52544965f71e87d00700017f |
-| Shops | Children |  | 52544965f71e87d007000180 |
-| Shops | Clothing and Accessories |  | 52544965f71e87d007000181 |
-| Shops | Clothing and Accessories | Accessories Store | 52544965f71e87d007000182 |
-| Shops | Clothing and Accessories | Boutique | 52544965f71e87d007000183 |
-| Shops | Clothing and Accessories | Kids' Store | 52544965f71e87d007000184 |
-| Shops | Clothing and Accessories | Lingerie Store | 52544965f71e87d007000185 |
-| Shops | Clothing and Accessories | Men's Store | 52544965f71e87d007000186 |
-| Shops | Clothing and Accessories | Shoe Store | 52544965f71e87d007000187 |
-| Shops | Clothing and Accessories | Swimwear | 52544965f71e87d007000188 |
-| Shops | Clothing and Accessories | Women's Store | 52544965f71e87d007000189 |
-| Shops | Computers and Electronics |  | 52544965f71e87d00700018a |
-| Shops | Computers and Electronics | Cameras | 52544965f71e87d00700018b |
-| Shops | Computers and Electronics | Mobile Phones | 52544965f71e87d00700018c |
-| Shops | Computers and Electronics | Video Games | 52544965f71e87d00700018d |
-| Shops | Construction Supplies |  | 52544965f71e87d00700018e |
-| Shops | Convenience Stores |  | 52544965f71e87d00700018f |
-| Shops | Costumes |  | 52544965f71e87d007000190 |
-| Shops | Dance and Music |  | 52544965f71e87d007000191 |
-| Shops | Department Stores |  | 52544965f71e87d007000192 |
-| Shops | Digital Purchase |  | 52544965f71e87d007000193 |
-| Shops | Discount Stores |  | 52544965f71e87d007000194 |
-| Shops | Electrical Equipment |  | 52544965f71e87d007000195 |
-| Shops | Equipment Rental |  | 52544965f71e87d007000196 |
-| Shops | Flea Markets |  | 52544965f71e87d007000197 |
-| Shops | Florists |  | 52544965f71e87d007000198 |
-| Shops | Food and Beverage Store |  | 52544965f71e87d007000199 |
-| Shops | Food and Beverage Store | Beer/Wine and Spirits | 52544965f71e87d00700019a |
-| Shops | Food and Beverage Store | Farmers Markets | 52544965f71e87d00700019b |
-| Shops | Food and Beverage Store | Health Food | 52544965f71e87d00700019c |
-| Shops | Food and Beverage Store | Specialty | 52544965f71e87d00700019d |
-| Shops | Fuel Dealer |  | 533a389c84f6ff3e5383d0db |
-| Shops | Furniture and Home Decor |  | 52544965f71e87d00700019e |
-| Shops | Gift and Novelty |  | 52544965f71e87d00700019f |
-| Shops | Glasses and Optometrist |  | 52544965f71e87d0070001a0 |
-| Shops | Hardware Store |  | 52544965f71e87d0070001a1 |
-| Shops | Hobby and Collectibles |  | 52544965f71e87d0070001a2 |
-| Shops | Industrial Supplies |  | 5320c25c0e388ee3443a6b3b |
-| Shops | Jewelry and Watches |  | 52544965f71e87d0070001a3 |
-| Shops | Luggage |  | 52544965f71e87d0070001a4 |
-| Shops | Marine Supplies |  | 535ef11b93a0a8721c000001 |
-| Shops | Music/Video and DVD |  | 52544965f71e87d0070001a5 |
-| Shops | Newsstands |  | 52544965f71e87d0070001a6 |
-| Shops | Nurseries and Garden Centers |  | 52544965f71e87d0070001a7 |
-| Shops | Office Supplies |  | 52544965f71e87d0070001a8 |
-| Shops | Outlet |  | 52544965f71e87d0070001a9 |
-| Shops | Pawn Shops |  | 52544965f71e87d0070001aa |
-| Shops | Pets |  | 52544965f71e87d0070001ab |
-| Shops | Pharmacies |  | 52544965f71e87d0070001ac |
-| Shops | Photos and Frames |  | 52544965f71e87d0070001ad |
-| Shops | Shoes |  | 52544965f71e87d0070001ae |
-| Shops | Shopping Centers and Malls |  | 52544965f71e87d0070001af |
-| Shops | Sporting Goods |  | 52544965f71e87d0070001b0 |
-| Shops | Supermarkets and Groceries |  | 52544965f71e87d0070001b1 |
-| Shops | Tobacco |  | 52544965f71e87d0070001b2 |
-| Shops | Toys |  | 52544965f71e87d0070001b3 |
-| Shops | Vintage and Thrift |  | 52544965f71e87d0070001b4 |
-| Shops | Warehouses and Wholesale Stores |  | 52544965f71e87d0070001b5 |
-| Shops | Wedding and Bridal |  | 52544965f71e87d0070001b6 |
-| Shops | Wholesale |  | 52544965f71e87d0070001b7 |
-| Tax |  |  | 5374270e70d8a0ac65000008 |
-| Transfer |  |  | 5374271470d8a0ac65000009 |
-| Transfer | ACH |  | 5374276e70d8a0ac6500001a |
-| Transfer | Account Transfer |  | 5374272370d8a0ac6500000c |
-| Transfer | Billpay |  | 5374272f70d8a0ac6500000e |
-| Transfer | Check |  | 5374276270d8a0ac65000018 |
-| Transfer | Credit |  | 537431254fd7f2f065000004 |
-| Transfer | Debit |  | 5374276870d8a0ac65000019 |
-| Transfer | Deposit |  | 5374271970d8a0ac6500000a |
-| Transfer | Deposit | ATM | 5374271e70d8a0ac6500000b |
-| Transfer | Deposit | Check | 53742c8c4fd7f2f065000002 |
-| Transfer | Keep the Change Savings Program |  | 5374277d70d8a0ac6500001d |
-| Transfer | Payroll |  | 5374275870d8a0ac65000016 |
-| Transfer | Payroll | Benefits | 5374275d70d8a0ac65000017 |
-| Transfer | Third Party |  | 5374273470d8a0ac6500000f |
-| Transfer | Third Party | Chase QuickPay | 53dafb059a73a67b02e292c9 |
-| Transfer | Third Party | Coinbase | 5374275370d8a0ac65000015 |
-| Transfer | Third Party | Dwolla | 5374273e70d8a0ac65000011 |
-| Transfer | Third Party | Paypal | 5374274370d8a0ac65000012 |
-| Transfer | Third Party | Square | 5374274870d8a0ac65000013 |
-| Transfer | Third Party | Square Cash | 5374274d70d8a0ac65000014 |
-| Transfer | Third Party | Venmo | 5374273970d8a0ac65000010 |
-| Transfer | Wire |  | 5374272970d8a0ac6500000d |
-| Transfer | Withdrawal |  | 5374277370d8a0ac6500001b |
-| Transfer | Withdrawal | ATM | 5374277870d8a0ac6500001c |
-| Transfer | Withdrawal | Check | 53742da54fd7f2f065000003 |
-| Travel |  |  | 52544965f71e87d0070001b8 |
-| Travel | Airlines and Aviation Services |  | 52544965f71e87d0070001b9 |
-| Travel | Airports |  | 52544965f71e87d0070001ba |
-| Travel | Boat |  | 52544965f71e87d0070001bb |
-| Travel | Bus Stations |  | 52544965f71e87d0070001bc |
-| Travel | Car and Truck Rentals |  | 52544965f71e87d0070001bd |
-| Travel | Charter Buses |  | 52544965f71e87d0070001be |
-| Travel | Cruises |  | 52544965f71e87d0070001bf |
-| Travel | Gas Stations |  | 52544965f71e87d0070001c0 |
-| Travel | Heliports |  | 52544965f71e87d0070001c1 |
-| Travel | Limos and Chauffeurs |  | 52544965f71e87d0070001c2 |
-| Travel | Lodging |  | 52544965f71e87d0070001c3 |
-| Travel | Lodging | Bed and Breakfasts | 52544965f71e87d0070001c4 |
-| Travel | Lodging | Cottages and Cabins | 52544965f71e87d0070001c5 |
-| Travel | Lodging | Hostels | 52544965f71e87d0070001c6 |
-| Travel | Lodging | Hotels and Motels | 52544965f71e87d0070001c7 |
-| Travel | Lodging | Lodges and Vacation Rentals | 52544965f71e87d0070001c8 |
-| Travel | Lodging | Resorts | 52544965f71e87d0070001c9 |
-| Travel | Parking |  | 52544965f71e87d0070001ca |
-| Travel | Public Transportation Services |  | 52544965f71e87d0070001cb |
-| Travel | Rail |  | 52544965f71e87d0070001cc |
-| Travel | Taxi and Car Services |  | 52544965f71e87d0070001cd |
-| Travel | Tolls and Fees |  | 5320c25d0e388ee3443a6b3c |
-| Travel | Transportation Centers |  | 52544965f71e87d0070001ce |
-| Travel | Travel Agencies |  | 52544965f71e87d0070001cf |
+| 0 | 1 | 2 | ID | Type |
+| --- | --- | --- | --- | --- |
+| Bank Fees |  |  | 10000000 | special |
+| Bank Fees | Overdraft |  | 10001000 | special |
+| Bank Fees | ATM |  | 10002000 | special |
+| Cash Advance |  |  | 11000000 | special |
+| Community |  |  | 12000000 | place |
+| Community | Animal Shelter |  | 12001000 | place |
+| Community | Assisted Living Services |  | 12002000 | place |
+| Community | Assisted Living Services | Facilities and Nursing Homes | 12002001 | place |
+| Community | Assisted Living Services | Caretakers | 12002002 | place |
+| Community | Cemetery |  | 12003000 | place |
+| Community | Courts |  | 12004000 | place |
+| Community | Day Care and Preschools |  | 12005000 | place |
+| Community | Disabled Persons Services |  | 12006000 | place |
+| Community | Drug and Alcohol Services |  | 12007000 | place |
+| Community | Education |  | 12008000 | place |
+| Community | Education | Vocational Schools | 12008001 | place |
+| Community | Education | Tutoring and Educational Services | 12008002 | place |
+| Community | Education | Primary and Secondary Schools | 12008003 | place |
+| Community | Education | Fraternities and Sororities | 12008004 | place |
+| Community | Education | Driving Schools | 12008005 | place |
+| Community | Education | Dance Schools | 12008006 | place |
+| Community | Education | Culinary Lessons and Schools | 12008007 | place |
+| Community | Education | Computer Training | 12008008 | place |
+| Community | Education | Colleges and Universities | 12008009 | place |
+| Community | Education | Art School | 12008010 | place |
+| Community | Education | Adult Education | 12008011 | place |
+| Community | Government Departments and Agencies |  | 12009000 | place |
+| Community | Government Lobbyists |  | 12010000 | place |
+| Community | Housing Assistance and Shelters |  | 12011000 | place |
+| Community | Law Enforcement |  | 12012000 | place |
+| Community | Law Enforcement | Police Stations | 12012001 | place |
+| Community | Law Enforcement | Fire Stations | 12012002 | place |
+| Community | Law Enforcement | Correctional Institutions | 12012003 | place |
+| Community | Libraries |  | 12013000 | place |
+| Community | Military |  | 12014000 | place |
+| Community | Organizations and Associations |  | 12015000 | place |
+| Community | Organizations and Associations | Youth Organizations | 12015001 | place |
+| Community | Organizations and Associations | Environmental | 12015002 | place |
+| Community | Organizations and Associations | Charities and Non-Profits | 12015003 | place |
+| Community | Post Offices |  | 12016000 | place |
+| Community | Public and Social Services |  | 12017000 | place |
+| Community | Religious |  | 12018000 | place |
+| Community | Religious | Temple | 12018001 | place |
+| Community | Religious | Synagogues | 12018002 | place |
+| Community | Religious | Mosques | 12018003 | place |
+| Community | Religious | Churches | 12018004 | place |
+| Community | Senior Citizen Services |  | 12019000 | place |
+| Community | Senior Citizen Services | Retirement | 12019001 | place |
+| Food and Drink |  |  | 13000000 | place |
+| Food and Drink | Bar |  | 13001000 | place |
+| Food and Drink | Bar | Wine Bar | 13001001 | place |
+| Food and Drink | Bar | Sports Bar | 13001002 | place |
+| Food and Drink | Bar | Hotel Lounge | 13001003 | place |
+| Food and Drink | Breweries |  | 13002000 | place |
+| Food and Drink | Internet Cafes |  | 13003000 | place |
+| Food and Drink | Nightlife |  | 13004000 | place |
+| Food and Drink | Nightlife | Strip Club | 13004001 | place |
+| Food and Drink | Nightlife | Night Clubs | 13004002 | place |
+| Food and Drink | Nightlife | Karaoke | 13004003 | place |
+| Food and Drink | Nightlife | Jazz and Blues Cafe | 13004004 | place |
+| Food and Drink | Nightlife | Hookah Lounges | 13004005 | place |
+| Food and Drink | Nightlife | Adult Entertainment | 13004006 | place |
+| Food and Drink | Restaurants |  | 13005000 | place |
+| Food and Drink | Restaurants | Winery | 13005001 | place |
+| Food and Drink | Restaurants | Vegan and Vegetarian | 13005002 | place |
+| Food and Drink | Restaurants | Turkish | 13005003 | place |
+| Food and Drink | Restaurants | Thai | 13005004 | place |
+| Food and Drink | Restaurants | Swiss | 13005005 | place |
+| Food and Drink | Restaurants | Sushi | 13005006 | place |
+| Food and Drink | Restaurants | Steakhouses | 13005007 | place |
+| Food and Drink | Restaurants | Spanish | 13005008 | place |
+| Food and Drink | Restaurants | Seafood | 13005009 | place |
+| Food and Drink | Restaurants | Scandinavian | 13005010 | place |
+| Food and Drink | Restaurants | Portuguese | 13005011 | place |
+| Food and Drink | Restaurants | Pizza | 13005012 | place |
+| Food and Drink | Restaurants | Moroccan | 13005013 | place |
+| Food and Drink | Restaurants | Middle Eastern | 13005014 | place |
+| Food and Drink | Restaurants | Mexican | 13005015 | place |
+| Food and Drink | Restaurants | Mediterranean | 13005016 | place |
+| Food and Drink | Restaurants | Latin American | 13005017 | place |
+| Food and Drink | Restaurants | Korean | 13005018 | place |
+| Food and Drink | Restaurants | Juice Bar | 13005019 | place |
+| Food and Drink | Restaurants | Japanese | 13005020 | place |
+| Food and Drink | Restaurants | Italian | 13005021 | place |
+| Food and Drink | Restaurants | Indonesian | 13005022 | place |
+| Food and Drink | Restaurants | Indian | 13005023 | place |
+| Food and Drink | Restaurants | Ice Cream | 13005024 | place |
+| Food and Drink | Restaurants | Greek | 13005025 | place |
+| Food and Drink | Restaurants | German | 13005026 | place |
+| Food and Drink | Restaurants | Gastropub | 13005027 | place |
+| Food and Drink | Restaurants | French | 13005028 | place |
+| Food and Drink | Restaurants | Food Truck | 13005029 | place |
+| Food and Drink | Restaurants | Fish and Chips | 13005030 | place |
+| Food and Drink | Restaurants | Filipino | 13005031 | place |
+| Food and Drink | Restaurants | Fast Food | 13005032 | place |
+| Food and Drink | Restaurants | Falafel | 13005033 | place |
+| Food and Drink | Restaurants | Ethiopian | 13005034 | place |
+| Food and Drink | Restaurants | Eastern European | 13005035 | place |
+| Food and Drink | Restaurants | Donuts | 13005036 | place |
+| Food and Drink | Restaurants | Distillery | 13005037 | place |
+| Food and Drink | Restaurants | Diners | 13005038 | place |
+| Food and Drink | Restaurants | Dessert | 13005039 | place |
+| Food and Drink | Restaurants | Delis | 13005040 | place |
+| Food and Drink | Restaurants | Cupcake Shop | 13005041 | place |
+| Food and Drink | Restaurants | Cuban | 13005042 | place |
+| Food and Drink | Restaurants | Coffee Shop | 13005043 | place |
+| Food and Drink | Restaurants | Chinese | 13005044 | place |
+| Food and Drink | Restaurants | Caribbean | 13005045 | place |
+| Food and Drink | Restaurants | Cajun | 13005046 | place |
+| Food and Drink | Restaurants | Cafe | 13005047 | place |
+| Food and Drink | Restaurants | Burrito | 13005048 | place |
+| Food and Drink | Restaurants | Burgers | 13005049 | place |
+| Food and Drink | Restaurants | Breakfast Spot | 13005050 | place |
+| Food and Drink | Restaurants | Brazilian | 13005051 | place |
+| Food and Drink | Restaurants | Barbecue | 13005052 | place |
+| Food and Drink | Restaurants | Bakery | 13005053 | place |
+| Food and Drink | Restaurants | Bagel Shop | 13005054 | place |
+| Food and Drink | Restaurants | Australian | 13005055 | place |
+| Food and Drink | Restaurants | Asian | 13005056 | place |
+| Food and Drink | Restaurants | American | 13005057 | place |
+| Food and Drink | Restaurants | African | 13005058 | place |
+| Food and Drink | Restaurants | Afghan | 13005059 | place |
+| Healthcare |  |  | 14000000 | place |
+| Healthcare | Healthcare Services |  | 14001000 | place |
+| Healthcare | Healthcare Services | Psychologists | 14001001 | place |
+| Healthcare | Healthcare Services | Pregnancy and Sexual Health | 14001002 | place |
+| Healthcare | Healthcare Services | Podiatrists | 14001003 | place |
+| Healthcare | Healthcare Services | Physical Therapy | 14001004 | place |
+| Healthcare | Healthcare Services | Optometrists | 14001005 | place |
+| Healthcare | Healthcare Services | Nutritionists | 14001006 | place |
+| Healthcare | Healthcare Services | Nurses | 14001007 | place |
+| Healthcare | Healthcare Services | Mental Health | 14001008 | place |
+| Healthcare | Healthcare Services | Medical Supplies and Labs | 14001009 | place |
+| Healthcare | Healthcare Services | Hospitals, Clinics and Medical Centers | 14001010 | place |
+| Healthcare | Healthcare Services | Emergency Services | 14001011 | place |
+| Healthcare | Healthcare Services | Dentists | 14001012 | place |
+| Healthcare | Healthcare Services | Counseling and Therapy | 14001013 | place |
+| Healthcare | Healthcare Services | Chiropractors | 14001014 | place |
+| Healthcare | Healthcare Services | Blood Banks and Centers | 14001015 | place |
+| Healthcare | Healthcare Services | Alternative Medicine | 14001016 | place |
+| Healthcare | Healthcare Services | Acupuncture | 14001017 | place |
+| Healthcare | Physicians |  | 14002000 | place |
+| Healthcare | Physicians | Urologists | 14002001 | place |
+| Healthcare | Physicians | Respiratory | 14002002 | place |
+| Healthcare | Physicians | Radiologists | 14002003 | place |
+| Healthcare | Physicians | Psychiatrists | 14002004 | place |
+| Healthcare | Physicians | Plastic Surgeons | 14002005 | place |
+| Healthcare | Physicians | Pediatricians | 14002006 | place |
+| Healthcare | Physicians | Pathologists | 14002007 | place |
+| Healthcare | Physicians | Orthopedic Surgeons | 14002008 | place |
+| Healthcare | Physicians | Ophthalmologists | 14002009 | place |
+| Healthcare | Physicians | Oncologists | 14002010 | place |
+| Healthcare | Physicians | Obstetricians and Gynecologists | 14002011 | place |
+| Healthcare | Physicians | Neurologists | 14002012 | place |
+| Healthcare | Physicians | Internal Medicine | 14002013 | place |
+| Healthcare | Physicians | General Surgery | 14002014 | place |
+| Healthcare | Physicians | Gastroenterologists | 14002015 | place |
+| Healthcare | Physicians | Family Medicine | 14002016 | place |
+| Healthcare | Physicians | Ear, Nose and Throat | 14002017 | place |
+| Healthcare | Physicians | Dermatologists | 14002018 | place |
+| Healthcare | Physicians | Cardiologists | 14002019 | place |
+| Healthcare | Physicians | Anesthesiologists | 14002020 | place |
+| Interest |  |  | 15000000 | special |
+| Payment |  |  | 16000000 | special |
+| Payment | Credit Card |  | 16001000 | special |
+| Recreation |  |  | 17000000 | place |
+| Recreation | Arts and Entertainment |  | 17001000 | place |
+| Recreation | Arts and Entertainment | Theatrical Productions | 17001001 | place |
+| Recreation | Arts and Entertainment | Symphony and Opera | 17001002 | place |
+| Recreation | Arts and Entertainment | Sports Venues | 17001003 | place |
+| Recreation | Arts and Entertainment | Social Clubs | 17001004 | place |
+| Recreation | Arts and Entertainment | Psychics and Astrologers | 17001005 | place |
+| Recreation | Arts and Entertainment | Party Centers | 17001006 | place |
+| Recreation | Arts and Entertainment | Music and Show Venues | 17001007 | place |
+| Recreation | Arts and Entertainment | Museums | 17001008 | place |
+| Recreation | Arts and Entertainment | Movie Theatres | 17001009 | place |
+| Recreation | Arts and Entertainment | Fairgrounds and Rodeos | 17001010 | place |
+| Recreation | Arts and Entertainment | Entertainment | 17001011 | place |
+| Recreation | Arts and Entertainment | Dance Halls and Saloons | 17001012 | place |
+| Recreation | Arts and Entertainment | Circuses and Carnivals | 17001013 | place |
+| Recreation | Arts and Entertainment | Casinos and Gaming | 17001014 | place |
+| Recreation | Arts and Entertainment | Bowling | 17001015 | place |
+| Recreation | Arts and Entertainment | Billiards and Pool | 17001016 | place |
+| Recreation | Arts and Entertainment | Art Dealers and Galleries | 17001017 | place |
+| Recreation | Arts and Entertainment | Arcades and Amusement Parks | 17001018 | place |
+| Recreation | Arts and Entertainment | Aquarium | 17001019 | place |
+| Recreation | Athletic Fields |  | 17002000 | place |
+| Recreation | Baseball |  | 17003000 | place |
+| Recreation | Basketball |  | 17004000 | place |
+| Recreation | Batting Cages |  | 17005000 | place |
+| Recreation | Boating |  | 17006000 | place |
+| Recreation | Campgrounds and RV Parks |  | 17007000 | place |
+| Recreation | Canoes and Kayaks |  | 17008000 | place |
+| Recreation | Combat Sports |  | 17009000 | place |
+| Recreation | Cycling |  | 17010000 | place |
+| Recreation | Dance |  | 17011000 | place |
+| Recreation | Equestrian |  | 17012000 | place |
+| Recreation | Football |  | 17013000 | place |
+| Recreation | Go Carts |  | 17014000 | place |
+| Recreation | Golf |  | 17015000 | place |
+| Recreation | Gun Ranges |  | 17016000 | place |
+| Recreation | Gymnastics |  | 17017000 | place |
+| Recreation | Gyms and Fitness Centers |  | 17018000 | place |
+| Recreation | Hiking |  | 17019000 | place |
+| Recreation | Hockey |  | 17020000 | place |
+| Recreation | Hot Air Balloons |  | 17021000 | place |
+| Recreation | Hunting and Fishing |  | 17022000 | place |
+| Recreation | Landmarks |  | 17023000 | place |
+| Recreation | Landmarks | Monuments and Memorials | 17023001 | place |
+| Recreation | Landmarks | Historic Sites | 17023002 | place |
+| Recreation | Landmarks | Gardens | 17023003 | place |
+| Recreation | Landmarks | Buildings and Structures | 17023004 | place |
+| Recreation | Miniature Golf |  | 17024000 | place |
+| Recreation | Outdoors |  | 17025000 | place |
+| Recreation | Outdoors | Rivers | 17025001 | place |
+| Recreation | Outdoors | Mountains | 17025002 | place |
+| Recreation | Outdoors | Lakes | 17025003 | place |
+| Recreation | Outdoors | Forests | 17025004 | place |
+| Recreation | Outdoors | Beaches | 17025005 | place |
+| Recreation | Paintball |  | 17026000 | place |
+| Recreation | Parks |  | 17027000 | place |
+| Recreation | Parks | Playgrounds | 17027001 | place |
+| Recreation | Parks | Picnic Areas | 17027002 | place |
+| Recreation | Parks | Natural Parks | 17027003 | place |
+| Recreation | Personal Trainers |  | 17028000 | place |
+| Recreation | Race Tracks |  | 17029000 | place |
+| Recreation | Racquet Sports |  | 17030000 | place |
+| Recreation | Racquetball |  | 17031000 | place |
+| Recreation | Rafting |  | 17032000 | place |
+| Recreation | Recreation Centers |  | 17033000 | place |
+| Recreation | Rock Climbing |  | 17034000 | place |
+| Recreation | Running |  | 17035000 | place |
+| Recreation | Scuba Diving |  | 17036000 | place |
+| Recreation | Skating |  | 17037000 | place |
+| Recreation | Skydiving |  | 17038000 | place |
+| Recreation | Snow Sports |  | 17039000 | place |
+| Recreation | Soccer |  | 17040000 | place |
+| Recreation | Sports and Recreation Camps |  | 17041000 | place |
+| Recreation | Sports Clubs |  | 17042000 | place |
+| Recreation | Stadiums and Arenas |  | 17043000 | place |
+| Recreation | Swimming |  | 17044000 | place |
+| Recreation | Tennis |  | 17045000 | place |
+| Recreation | Water Sports |  | 17046000 | place |
+| Recreation | Yoga and Pilates |  | 17047000 | place |
+| Recreation | Zoo |  | 17048000 | place |
+| Service |  |  | 18000000 | place |
+| Service | Advertising and Marketing |  | 18001000 | place |
+| Service | Advertising and Marketing | Writing, Copywriting and Technical Writing | 18001001 | place |
+| Service | Advertising and Marketing | Search Engine Marketing and Optimization | 18001002 | place |
+| Service | Advertising and Marketing | Public Relations | 18001003 | place |
+| Service | Advertising and Marketing | Promotional Items | 18001004 | place |
+| Service | Advertising and Marketing | Print, TV, Radio and Outdoor Advertising | 18001005 | place |
+| Service | Advertising and Marketing | Online Advertising | 18001006 | place |
+| Service | Advertising and Marketing | Market Research and Consulting | 18001007 | place |
+| Service | Advertising and Marketing | Direct Mail and Email Marketing Services | 18001008 | place |
+| Service | Advertising and Marketing | Creative Services | 18001009 | place |
+| Service | Advertising and Marketing | Advertising Agencies and Media Buyers | 18001010 | place |
+| Service | Art Restoration |  | 18003000 | place |
+| Service | Audiovisual |  | 18004000 | place |
+| Service | Automation and Control Systems |  | 18005000 | place |
+| Service | Automotive |  | 18006000 | place |
+| Service | Automotive | Towing | 18006001 | place |
+| Service | Automotive | Motorcycle, Moped and Scooter Repair | 18006002 | place |
+| Service | Automotive | Maintenance and Repair | 18006003 | place |
+| Service | Automotive | Car Wash and Detail | 18006004 | place |
+| Service | Automotive | Car Appraisers | 18006005 | place |
+| Service | Automotive | Auto Transmission | 18006006 | place |
+| Service | Automotive | Auto Tires | 18006007 | place |
+| Service | Automotive | Auto Smog Check | 18006008 | place |
+| Service | Automotive | Auto Oil and Lube | 18006009 | place |
+| Service | Business and Strategy Consulting |  | 18007000 | place |
+| Service | Business Services |  | 18008000 | place |
+| Service | Business Services | Printing and Publishing | 18008001 | place |
+| Service | Cable |  | 18009000 | place |
+| Service | Chemicals and Gasses |  | 18010000 | place |
+| Service | Cleaning |  | 18011000 | place |
+| Service | Computers |  | 18012000 | place |
+| Service | Computers | Maintenance and Repair | 18012001 | place |
+| Service | Computers | Software Development | 18012002 | place |
+| Service | Construction |  | 18013000 | place |
+| Service | Construction | Specialty | 18013001 | place |
+| Service | Construction | Roofers | 18013002 | place |
+| Service | Construction | Painting | 18013003 | place |
+| Service | Construction | Masonry | 18013004 | place |
+| Service | Construction | Infrastructure | 18013005 | place |
+| Service | Construction | Heating, Ventilating and Air Conditioning | 18013006 | place |
+| Service | Construction | Electricians | 18013007 | place |
+| Service | Construction | Contractors | 18013008 | place |
+| Service | Construction | Carpet and Flooring | 18013009 | place |
+| Service | Construction | Carpenters | 18013010 | place |
+| Service | Credit Counseling and Bankruptcy Services |  | 18014000 | place |
+| Service | Dating and Escort |  | 18015000 | place |
+| Service | Employment Agencies |  | 18016000 | place |
+| Service | Engineering |  | 18017000 | place |
+| Service | Entertainment |  | 18018000 | place |
+| Service | Entertainment | Media | 18018001 | place |
+| Service | Events and Event Planning |  | 18019000 | place |
+| Service | Financial |  | 18020000 | place |
+| Service | Financial | Taxes | 18020001 | place |
+| Service | Financial | Student Aid and Grants | 18020002 | place |
+| Service | Financial | Stock Brokers | 18020003 | place |
+| Service | Financial | Loans and Mortgages | 18020004 | place |
+| Service | Financial | Holding and Investment Offices | 18020005 | place |
+| Service | Financial | Fund Raising | 18020006 | place |
+| Service | Financial | Financial Planning and Investments | 18020007 | place |
+| Service | Financial | Credit Reporting | 18020008 | place |
+| Service | Financial | Collections | 18020009 | place |
+| Service | Financial | Check Cashing | 18020010 | place |
+| Service | Financial | Business Brokers and Franchises | 18020011 | place |
+| Service | Financial | Banking and Finance | 18020012 | place |
+| Service | Financial | ATMs | 18020013 | place |
+| Service | Financial | Accounting and Bookkeeping | 18020014 | place |
+| Service | Food and Beverage |  | 18021000 | place |
+| Service | Food and Beverage | Distribution | 18021001 | place |
+| Service | Food and Beverage | Catering | 18021002 | place |
+| Service | Funeral Services |  | 18022000 | place |
+| Service | Geological |  | 18023000 | place |
+| Service | Home Improvement |  | 18024000 | place |
+| Service | Home Improvement | Upholstery | 18024001 | place |
+| Service | Home Improvement | Tree Service | 18024002 | place |
+| Service | Home Improvement | Swimming Pool Maintenance and Services | 18024003 | place |
+| Service | Home Improvement | Storage | 18024004 | place |
+| Service | Home Improvement | Roofers | 18024005 | place |
+| Service | Home Improvement | Pools and Spas | 18024006 | place |
+| Service | Home Improvement | Plumbing | 18024007 | place |
+| Service | Home Improvement | Pest Control | 18024008 | place |
+| Service | Home Improvement | Painting | 18024009 | place |
+| Service | Home Improvement | Movers | 18024010 | place |
+| Service | Home Improvement | Mobile Homes | 18024011 | place |
+| Service | Home Improvement | Lighting Fixtures | 18024012 | place |
+| Service | Home Improvement | Landscaping and Gardeners | 18024013 | place |
+| Service | Home Improvement | Kitchens | 18024014 | place |
+| Service | Home Improvement | Interior Design | 18024015 | place |
+| Service | Home Improvement | Housewares | 18024016 | place |
+| Service | Home Improvement | Home Inspection Services | 18024017 | place |
+| Service | Home Improvement | Home Appliances | 18024018 | place |
+| Service | Home Improvement | Heating, Ventilation and Air Conditioning | 18024019 | place |
+| Service | Home Improvement | Hardware and Services | 18024020 | place |
+| Service | Home Improvement | Fences, Fireplaces and Garage Doors | 18024021 | place |
+| Service | Home Improvement | Electricians | 18024022 | place |
+| Service | Home Improvement | Doors and Windows | 18024023 | place |
+| Service | Home Improvement | Contractors | 18024024 | place |
+| Service | Home Improvement | Carpet and Flooring | 18024025 | place |
+| Service | Home Improvement | Carpenters | 18024026 | place |
+| Service | Home Improvement | Architects | 18024027 | place |
+| Service | Household |  | 18025000 | place |
+| Service | Human Resources |  | 18026000 | place |
+| Service | Immigration |  | 18027000 | place |
+| Service | Import and Export |  | 18028000 | place |
+| Service | Industrial Machinery and Vehicles |  | 18029000 | place |
+| Service | Insurance |  | 18030000 | place |
+| Service | Internet Services |  | 18031000 | place |
+| Service | Leather |  | 18032000 | place |
+| Service | Legal |  | 18033000 | place |
+| Service | Logging and Sawmills |  | 18034000 | place |
+| Service | Machine Shops |  | 18035000 | place |
+| Service | Management |  | 18036000 | place |
+| Service | Manufacturing |  | 18037000 | place |
+| Service | Manufacturing | Apparel and Fabric Products | 18037001 | place |
+| Service | Manufacturing | Chemicals and Gasses | 18037002 | place |
+| Service | Manufacturing | Computers and Office Machines | 18037003 | place |
+| Service | Manufacturing | Electrical Equipment and Components | 18037004 | place |
+| Service | Manufacturing | Food and Beverage | 18037005 | place |
+| Service | Manufacturing | Furniture and Fixtures | 18037006 | place |
+| Service | Manufacturing | Glass Products | 18037007 | place |
+| Service | Manufacturing | Industrial Machinery and Equipment | 18037008 | place |
+| Service | Manufacturing | Leather Goods | 18037009 | place |
+| Service | Manufacturing | Metal Products | 18037010 | place |
+| Service | Manufacturing | Nonmetallic Mineral Products | 18037011 | place |
+| Service | Manufacturing | Paper Products | 18037012 | place |
+| Service | Manufacturing | Petroleum | 18037013 | place |
+| Service | Manufacturing | Plastic Products | 18037014 | place |
+| Service | Manufacturing | Rubber Products | 18037015 | place |
+| Service | Manufacturing | Service Instruments | 18037016 | place |
+| Service | Manufacturing | Textiles | 18037017 | place |
+| Service | Manufacturing | Tobacco | 18037018 | place |
+| Service | Manufacturing | Transportation Equipment | 18037019 | place |
+| Service | Manufacturing | Wood Products | 18037020 | place |
+| Service | Media Production |  | 18038000 | place |
+| Service | Metals |  | 18039000 | place |
+| Service | Mining |  | 18040000 | place |
+| Service | Mining | Coal | 18040001 | place |
+| Service | Mining | Metal | 18040002 | place |
+| Service | Mining | Non-Metallic Minerals | 18040003 | place |
+| Service | News Reporting |  | 18041000 | place |
+| Service | Oil and Gas |  | 18042000 | place |
+| Service | Packaging |  | 18043000 | place |
+| Service | Paper |  | 18044000 | place |
+| Service | Personal Care |  | 18045000 | place |
+| Service | Personal Care | Tattooing | 18045001 | place |
+| Service | Personal Care | Tanning Salons | 18045002 | place |
+| Service | Personal Care | Spas | 18045003 | place |
+| Service | Personal Care | Skin Care | 18045004 | place |
+| Service | Personal Care | Piercing | 18045005 | place |
+| Service | Personal Care | Massage Clinics and Therapists | 18045006 | place |
+| Service | Personal Care | Manicures and Pedicures | 18045007 | place |
+| Service | Personal Care | Laundry and Garmet Services | 18045008 | place |
+| Service | Personal Care | Hair Salons and Barbers | 18045009 | place |
+| Service | Personal Care | Hair Removal | 18045010 | place |
+| Service | Petroleum |  | 18046000 | place |
+| Service | Photography |  | 18047000 | place |
+| Service | Plastics |  | 18048000 | place |
+| Service | Rail |  | 18049000 | place |
+| Service | Real Estate |  | 18050000 | place |
+| Service | Real Estate | Real Estate Development and Title Companies | 18050001 | place |
+| Service | Real Estate | Real Estate Appraiser | 18050002 | place |
+| Service | Real Estate | Real Estate Agents | 18050003 | place |
+| Service | Real Estate | Property Management | 18050004 | place |
+| Service | Real Estate | Corporate Housing | 18050005 | place |
+| Service | Real Estate | Commercial Real Estate | 18050006 | place |
+| Service | Real Estate | Building and Land Surveyors | 18050007 | place |
+| Service | Real Estate | Boarding Houses | 18050008 | place |
+| Service | Real Estate | Apartments, Condos and Houses | 18050009 | place |
+| Service | Refrigeration and Ice |  | 18051000 | place |
+| Service | Renewable Energy |  | 18052000 | place |
+| Service | Repair Services |  | 18053000 | place |
+| Service | Research |  | 18054000 | place |
+| Service | Rubber |  | 18055000 | place |
+| Service | Scientific |  | 18056000 | place |
+| Service | Security and Safety |  | 18057000 | place |
+| Service | Shipping and Freight |  | 18058000 | place |
+| Service | Software Development |  | 18059000 | place |
+| Service | Storage |  | 18060000 | place |
+| Service | Subscription |  | 18061000 | place |
+| Service | Tailors |  | 18062000 | place |
+| Service | Telecommunication Services |  | 18063000 | place |
+| Service | Textiles |  | 18064000 | place |
+| Service | Tourist Information and Services |  | 18065000 | place |
+| Service | Transportation |  | 18066000 | place |
+| Service | Travel Agents and Tour Operators |  | 18067000 | place |
+| Service | Utilities |  | 18068000 | place |
+| Service | Utilities | Water | 18068001 | place |
+| Service | Utilities | Sanitary and Waste Management | 18068002 | place |
+| Service | Utilities | Heating, Ventilating, and Air Conditioning | 18068003 | place |
+| Service | Utilities | Gas | 18068004 | place |
+| Service | Utilities | Electric | 18068005 | place |
+| Service | Veterinarians |  | 18069000 | place |
+| Service | Water and Waste Management |  | 18070000 | place |
+| Service | Web Design and Development |  | 18071000 | place |
+| Service | Welding |  | 18072000 | place |
+| Service | Agriculture and Forestry |  | 18073000 | place |
+| Service | Agriculture and Forestry | Crop Production | 18073001 | place |
+| Service | Agriculture and Forestry | Forestry | 18073002 | place |
+| Service | Agriculture and Forestry | Livestock and Animals | 18073003 | place |
+| Service | Agriculture and Forestry | Services | 18073004 | place |
+| Service | Art and Graphic Design |  | 18074000 | place |
+| Shops |  |  | 19000000 | place |
+| Shops | Adult |  | 19001000 | place |
+| Shops | Antiques |  | 19002000 | place |
+| Shops | Arts and Crafts |  | 19003000 | place |
+| Shops | Auctions |  | 19004000 | place |
+| Shops | Automotive |  | 19005000 | place |
+| Shops | Automotive | Used Car Dealers | 19005001 | place |
+| Shops | Automotive | Salvage Yards | 19005002 | place |
+| Shops | Automotive | RVs and Motor Homes | 19005003 | place |
+| Shops | Automotive | Motorcycles, Mopeds and Scooters | 19005004 | place |
+| Shops | Automotive | Classic and Antique Car | 19005005 | place |
+| Shops | Automotive | Car Parts and Accessories | 19005006 | place |
+| Shops | Automotive | Car Dealers and Leasing | 19005007 | place |
+| Shops | Beauty Products |  | 19006000 | place |
+| Shops | Bicycles |  | 19007000 | place |
+| Shops | Boat Dealers |  | 19008000 | place |
+| Shops | Bookstores |  | 19009000 | place |
+| Shops | Cards and Stationery |  | 19010000 | place |
+| Shops | Children |  | 19011000 | place |
+| Shops | Clothing and Accessories |  | 19012000 | place |
+| Shops | Clothing and Accessories | Women's Store | 19012001 | place |
+| Shops | Clothing and Accessories | Swimwear | 19012002 | place |
+| Shops | Clothing and Accessories | Shoe Store | 19012003 | place |
+| Shops | Clothing and Accessories | Men's Store | 19012004 | place |
+| Shops | Clothing and Accessories | Lingerie Store | 19012005 | place |
+| Shops | Clothing and Accessories | Kids' Store | 19012006 | place |
+| Shops | Clothing and Accessories | Boutique | 19012007 | place |
+| Shops | Clothing and Accessories | Accessories Store | 19012008 | place |
+| Shops | Computers and Electronics |  | 19013000 | place |
+| Shops | Computers and Electronics | Video Games | 19013001 | place |
+| Shops | Computers and Electronics | Mobile Phones | 19013002 | place |
+| Shops | Computers and Electronics | Cameras | 19013003 | place |
+| Shops | Construction Supplies |  | 19014000 | place |
+| Shops | Convenience Stores |  | 19015000 | place |
+| Shops | Costumes |  | 19016000 | place |
+| Shops | Dance and Music |  | 19017000 | place |
+| Shops | Department Stores |  | 19018000 | place |
+| Shops | Digital Purchase |  | 19019000 | place |
+| Shops | Discount Stores |  | 19020000 | place |
+| Shops | Electrical Equipment |  | 19021000 | place |
+| Shops | Equipment Rental |  | 19022000 | place |
+| Shops | Flea Markets |  | 19023000 | place |
+| Shops | Florists |  | 19024000 | place |
+| Shops | Food and Beverage Store |  | 19025000 | place |
+| Shops | Food and Beverage Store | Specialty | 19025001 | place |
+| Shops | Food and Beverage Store | Health Food | 19025002 | place |
+| Shops | Food and Beverage Store | Farmers Markets | 19025003 | place |
+| Shops | Food and Beverage Store | Beer, Wine and Spirits | 19025004 | place |
+| Shops | Fuel Dealer |  | 19026000 | place |
+| Shops | Furniture and Home Decor |  | 19027000 | place |
+| Shops | Gift and Novelty |  | 19028000 | place |
+| Shops | Glasses and Optometrist |  | 19029000 | place |
+| Shops | Hardware Store |  | 19030000 | place |
+| Shops | Hobby and Collectibles |  | 19031000 | place |
+| Shops | Industrial Supplies |  | 19032000 | place |
+| Shops | Jewelry and Watches |  | 19033000 | place |
+| Shops | Luggage |  | 19034000 | place |
+| Shops | Marine Supplies |  | 19035000 | place |
+| Shops | Music, Video and DVD |  | 19036000 | place |
+| Shops | Musical Instruments |  | 19037000 | place |
+| Shops | Newsstands |  | 19038000 | place |
+| Shops | Office Supplies |  | 19039000 | place |
+| Shops | Outlet |  | 19040000 | place |
+| Shops | Outlet | Women's Store | 19040001 | place |
+| Shops | Outlet | Swimwear | 19040002 | place |
+| Shops | Outlet | Shoe Store | 19040003 | place |
+| Shops | Outlet | Men's Store | 19040004 | place |
+| Shops | Outlet | Lingerie Store | 19040005 | place |
+| Shops | Outlet | Kids' Store | 19040006 | place |
+| Shops | Outlet | Boutique | 19040007 | place |
+| Shops | Outlet | Accessories Store | 19040008 | place |
+| Shops | Pawn Shops |  | 19041000 | place |
+| Shops | Pets |  | 19042000 | place |
+| Shops | Pharmacies |  | 19043000 | place |
+| Shops | Photos and Frames |  | 19044000 | place |
+| Shops | Shopping Centers and Malls |  | 19045000 | place |
+| Shops | Sporting Goods |  | 19046000 | place |
+| Shops | Supermarkets and Groceries |  | 19047000 | place |
+| Shops | Tobacco |  | 19048000 | place |
+| Shops | Toys |  | 19049000 | place |
+| Shops | Vintage and Thrift |  | 19050000 | place |
+| Shops | Warehouses and Wholesale Stores |  | 19051000 | place |
+| Shops | Wedding and Bridal |  | 19052000 | place |
+| Shops | Wholesale |  | 19053000 | place |
+| Shops | Lawn and Garden |  | 19054000 | place |
+| Tax |  |  | 20000000 | special |
+| Transfer |  |  | 21000000 | special |
+| Transfer | Account Transfer |  | 21001000 | special |
+| Transfer | ACH |  | 21002000 | special |
+| Transfer | Billpay |  | 21003000 | special |
+| Transfer | Check |  | 21004000 | special |
+| Transfer | Credit |  | 21005000 | special |
+| Transfer | Debit |  | 21006000 | special |
+| Transfer | Deposit |  | 21007000 | special |
+| Transfer | Deposit | Check | 21007001 | special |
+| Transfer | Deposit | ATM | 21007002 | special |
+| Transfer | Keep the Change Savings Program |  | 21008000 | special |
+| Transfer | Payroll |  | 21009000 | special |
+| Transfer | Payroll | Benefits | 21009001 | special |
+| Transfer | Third Party |  | 21010000 | special |
+| Transfer | Third Party | Venmo | 21010001 | special |
+| Transfer | Third Party | Square Cash | 21010002 | special |
+| Transfer | Third Party | Square | 21010003 | special |
+| Transfer | Third Party | Paypal | 21010004 | special |
+| Transfer | Third Party | Dwolla | 21010005 | special |
+| Transfer | Third Party | Coinbase | 21010006 | special |
+| Transfer | Third Party | Chase QuickPay | 21010007 | special |
+| Transfer | Wire |  | 21011000 | special |
+| Transfer | Withdrawal |  | 21012000 | special |
+| Transfer | Withdrawal | Check | 21012001 | special |
+| Transfer | Withdrawal | ATM | 21012002 | special |
+| Travel |  |  | 22000000 | place |
+| Travel | Airlines and Aviation Services |  | 22001000 | special |
+| Travel | Airports |  | 22002000 | place |
+| Travel | Boat |  | 22003000 | place |
+| Travel | Bus Stations |  | 22004000 | place |
+| Travel | Car and Truck Rentals |  | 22005000 | place |
+| Travel | Car Service |  | 22006000 | place |
+| Travel | Car Service | Ride Share | 22006001 | special |
+| Travel | Charter Buses |  | 22007000 | place |
+| Travel | Cruises |  | 22008000 | special |
+| Travel | Gas Stations |  | 22009000 | place |
+| Travel | Heliports |  | 22010000 | place |
+| Travel | Limos and Chauffeurs |  | 22011000 | place |
+| Travel | Lodging |  | 22012000 | place |
+| Travel | Lodging | Resorts | 22012001 | place |
+| Travel | Lodging | Lodges and Vacation Rentals | 22012002 | place |
+| Travel | Lodging | Hotels and Motels | 22012003 | place |
+| Travel | Lodging | Hostels | 22012004 | place |
+| Travel | Lodging | Cottages and Cabins | 22012005 | place |
+| Travel | Lodging | Bed and Breakfasts | 22012006 | place |
+| Travel | Parking |  | 22013000 | place |
+| Travel | Public Transportation Services |  | 22014000 | place |
+| Travel | Rail |  | 22015000 | place |
+| Travel | Taxi |  | 22016000 | special |
+| Travel | Tolls and Fees |  | 22017000 | special |
+| Travel | Transportation Centers |  | 22018000 | place |
