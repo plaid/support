@@ -12,6 +12,7 @@ HTTP | Code | Message | Resolve
 `400` | `1005` | *credentials missing* | You need to provide a credentials object.
 `400` | `1006` | *invalid credentials format* | Credentials need to be JSON or stringified JSON.
 `400` | `1007` | *upgrade_to required* | In order to upgrade an account, an upgrade_to field is required , ex. connect
+`400` | `1009` | *invalid content-type* | Valid 'Content-Type' headers are 'application/json' and 'application/x-www-form-urlencoded' with an optional 'UTF-8' charset.
 `401` | `1100` | *client_id missing* | Include your Client ID so we know who you are.
 `401` | `1101` | *secret missing* | Include your Secret so we can verify your identity.
 `401` | `1102` | *secret or client_id invalid* | The Client ID does not exist or the Secret does not match the Client ID you provided.
