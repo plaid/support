@@ -9,7 +9,7 @@ HTTP | Code | Message | Resolve
 `400` | `1003` | *access_token disallowed* | You included an access_token on a submit call - this is only allowed on step and get routes.
 `400` | `1008` | *unsupported access_token* | This access token format is no longer supported. Contact support to resolve.
 `400` | `1004` | *invalid options format* | Options need to be JSON or stringified JSON.
-`400` | `1005` | *credentials missing* | You need to provide a credentials object.
+`400` | `1005` | *credentials missing* | Provide username, password, and pin if appropriate.
 `400` | `1006` | *invalid credentials format* | Credentials need to be JSON or stringified JSON.
 `400` | `1007` | *upgrade_to required* | In order to upgrade an account, an upgrade_to field is required , ex. connect
 `400` | `1009` | *invalid content-type* | Valid 'Content-Type' headers are 'application/json' and 'application/x-www-form-urlencoded' with an optional 'UTF-8' charset.
