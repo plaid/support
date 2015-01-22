@@ -40,8 +40,6 @@ HTTP | Code | Message | Resolve
 `404` | `1301` | *unable to find institution* | Double-check the provided institution ID.
 `402` | `1302` | *institution not responding* | The institution is failing to respond to our request, if you resubmit the query the request may go through.
 `402` | `1303` | *institution down* | The institution is down for an indeterminate amount of time, if you resubmit in a couple hours it may go through.
-`400` | `1400` | *entity_id required* | You must include an entity_id parameter.
-`404` | `1401` | *unable to find entity* | Double-check the provided entity ID.
 `404` | `1501` | *unable to find category* | Double-check the provided category ID.
 `400` | `1502` | *type required* | You must include a type parameter.
 `400` | `1503` | *invalid type* | The specified type is not supported.
@@ -51,6 +49,7 @@ HTTP | Code | Message | Resolve
 `401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
 `401` | `1111` | *invalid upgrade* | Specify a valid product to upgrade this item to.
 `401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
+`429` | `1113` | *rate limit exceeded* | You have exceeded your request rate limit for this product. Try again soon.
 `404` | `1605` | *user not found* | User was previously deleted from our system.
 `404` | `1606` | *account not found* | The account ID provided was not correct.
 `404` | `1610` | *item not found* | No matching items found; go add an account!
