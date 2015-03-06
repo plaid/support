@@ -36,7 +36,7 @@ HTTP | Code | Message | Resolve
 `402` | `1214` | *invalid state* | We either could not understand the state you sent or the state is not supported by the institution.
 `402` | `1215` | *mfa reset* | MFA access has changed or this application's access has been revoked. Submit a PATCH call to resolve.
 `401` | `1218` | *mfa not required* | This item does not require the MFA process at this time.
-`404` | `1300` | *institution not available* | This institution is not yet available on the Plaid API.
+`404` | `1300` | *institution not available* | This institution is not yet available in this environment.
 `404` | `1301` | *unable to find institution* | Double-check the provided institution ID.
 `402` | `1302` | *institution not responding* | The institution is failing to respond to our request, if you resubmit the query the request may go through.
 `402` | `1303` | *institution down* | The institution is down for an indeterminate amount of time, if you resubmit in a couple hours it may go through.
