@@ -19,7 +19,7 @@ HTTP | Code | Message | Resolve
 `401` | `1104` | *unauthorized product* | Your Client ID does not have access to this product. Contact us to purchase this product.
 `401` | `1105` | *bad access_token* | This access_token appears to be corrupted.
 `401` | `1108` | *invalid type* | This institution is not currently supported.
-`401` | `1109` | *unauthorized product* | Your Client ID only has access to the testing environment. Contact us to purchase this product.
+`401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See https://plaid.com/docs/#sandbox.
 `402` | `1200` | *invalid credentials* | The username or password provided were not correct.
 `402` | `1201` | *invalid username* | The username provided was not correct.
 `402` | `1202` | *invalid password* | The password provided was not correct.
