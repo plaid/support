@@ -18,8 +18,14 @@ HTTP | Code | Message | Resolve
 `401` | `1102` | *secret or client_id invalid* | The Client ID does not exist or the Secret does not match the Client ID you provided.
 `401` | `1104` | *unauthorized product* | Your Client ID does not have access to this product. Contact us to purchase this product.
 `401` | `1105` | *bad access_token* | This access_token appears to be corrupted.
+`401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See https://github.com/plaid/project-csa for docs.
+`401` | `1107` | *missing public_token* | Include the public_token received from the Project CSA module. See https://github.com/plaid/project-csa for docs.
 `401` | `1108` | *invalid type* | This institution is not currently supported.
 `401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See https://plaid.com/docs/#sandbox.
+`401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
+`401` | `1111` | *invalid upgrade* | Specify a valid product to upgrade this item to.
+`401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
+`429` | `1113` | *rate limit exceeded* | You have exceeded your request rate limit for this product. Try again soon.
 `402` | `1200` | *invalid credentials* | The username or password provided were not correct.
 `402` | `1201` | *invalid username* | The username provided was not correct.
 `402` | `1202` | *invalid password* | The password provided was not correct.
@@ -27,12 +33,12 @@ HTTP | Code | Message | Resolve
 `402` | `1204` | *invalid send_method* | The MFA send_method provided was invalid. Consult the documentation for the proper format.
 `402` | `1205` | *account locked* | The account is locked. Prompt the user to visit the issuing institution's site and unlock their account.
 `402` | `1206` | *account not setup* | The account has not been fully set up. Prompt the user to visit the issuing institution's site and finish the setup process.
-`402` | `1212` | *no accounts* | No valid accounts exist for this user.
 `402` | `1207` | *country not supported* | We're United States-only at this point!
 `402` | `1208` | *mfa not supported* | This account requires MFA to access - we're currently not supporting MFA through this institution.
 `402` | `1209` | *invalid pin* | The pin provided was not correct.
 `402` | `1210` | *account not supported* | This account is currently not supported.
 `402` | `1211` | *account not supported* | The SafePass rules for this Bank of America account restrict external access. To resolve, disable "Require SafePass to sign in to Online Banking".
+`402` | `1212` | *no accounts* | No valid accounts exist for this user.
 `402` | `1214` | *invalid state* | We either could not understand the state you sent or the state is not supported by the institution.
 `402` | `1215` | *mfa reset* | MFA access has changed or this application's access has been revoked. Submit a PATCH call to resolve.
 `401` | `1218` | *mfa not required* | This item does not require the MFA process at this time.
@@ -46,10 +52,6 @@ HTTP | Code | Message | Resolve
 `400` | `1507` | *invalid date* | Consult the documentation for valid date formats.
 `404` | `1600` | *product not found* | This product doesn't exist yet, we're actually not sure how you reached this error...
 `404` | `1601` | *product not available* | This product is not yet available for this institution.
-`401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
-`401` | `1111` | *invalid upgrade* | Specify a valid product to upgrade this item to.
-`401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
-`429` | `1113` | *rate limit exceeded* | You have exceeded your request rate limit for this product. Try again soon.
 `404` | `1605` | *user not found* | User was previously deleted from our system.
 `404` | `1606` | *account not found* | The account ID provided was not correct.
 `404` | `1610` | *item not found* | No matching items found; go add an account!
