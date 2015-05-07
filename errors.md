@@ -18,8 +18,8 @@ HTTP | Code | Message | Resolve
 `401` | `1102` | *secret or client_id invalid* | The Client ID does not exist or the Secret does not match the Client ID you provided.
 `401` | `1104` | *unauthorized product* | Your Client ID does not have access to this product. Contact us to purchase this product.
 `401` | `1105` | *bad access_token* | This access_token appears to be corrupted.
-`401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See https://github.com/plaid/project-csa for docs.
-`401` | `1107` | *missing public_token* | Include the public_token received from the Project CSA module. See https://github.com/plaid/project-csa for docs.
+`401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See https://github.com/plaid/link for docs.
+`401` | `1107` | *missing public_token* | Include the public_token received from the Plaid Link module. See https://github.com/plaid/link for docs.
 `401` | `1108` | *invalid type* | This institution is not currently supported.
 `401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See https://plaid.com/docs/#sandbox.
 `401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
