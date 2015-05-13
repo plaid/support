@@ -8,6 +8,7 @@ Below are details regarding the historical data available for each Financial Ins
 | Bank of America       | 12 months | 12 months  |
 | Chase                 | 3 months  | 24 months  |
 | Citi                  | 18 months | 18 months  |
+| Silicon Valley Bank   | 1 month   | 3 months   |
 | USAA                  | 4 months  | 3 months   |
 | US Bank               | 18 months | 18 months  |
 | Wells Fargo           | 2 months  | 18 months  |
