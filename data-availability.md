@@ -5,7 +5,7 @@ Below are details regarding the historical data available for each Financial Ins
 | Financial Institution | Credit    | Depository |
 | --------------------- | --------- | ---------- |
 | American Express      | 24 months | N/A        |
-| Bank of America       | 3 months  | 3 months   |
+| Bank of America       | 12 months | 12 months  |
 | Chase                 | 3 months  | 24 months  |
 | Citi                  | 18 months | 18 months  |
 | USAA                  | 4 months  | 3 months   |
