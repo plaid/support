@@ -11,7 +11,11 @@ Bank Fees | Overdraft |  | 10001000 | special
 Bank Fees | ATM |  | 10002000 | special
 Bank Fees | Late Payment |  | 10003000 | special
 Bank Fees | Fraud Dispute |  | 10004000 | special
-Bank Fees | Foreign Transaction Fee |  | 10005000 | special
+Bank Fees | Foreign Transaction |  | 10005000 | special
+Bank Fees | Wire Transfer |  | 10006000 | special
+Bank Fees | Insufficient Funds |  | 10007000 | special
+Bank Fees | Cash Advance |  | 10008000 | special
+Bank Fees | Excess Activity |  | 10009000 | special
 Cash Advance |  |  | 11000000 | special
 Community |  |  | 12000000 | place
 Community | Animal Shelter |  | 12001000 | place
@@ -176,6 +180,8 @@ Interest | Interest Earned |  | 15001000 | special
 Interest | Interest Charged |  | 15002000 | special
 Payment |  |  | 16000000 | special
 Payment | Credit Card |  | 16001000 | special
+Payment | Rent |  | 16002000 | special
+Payment | Loan |  | 16003000 | special
 Recreation |  |  | 17000000 | place
 Recreation | Arts and Entertainment |  | 17001000 | place
 Recreation | Arts and Entertainment | Theatrical Productions | 17001001 | place
@@ -544,8 +550,10 @@ Shops | Wedding and Bridal |  | 19052000 | place
 Shops | Wholesale |  | 19053000 | place
 Shops | Lawn and Garden |  | 19054000 | place
 Tax |  |  | 20000000 | special
+Tax | Refund |  | 20001000 | special
+Tax | Payment |  | 20002000 | special
 Transfer |  |  | 21000000 | special
-Transfer | Account Transfer |  | 21001000 | special
+Transfer | Internal Account Transfer |  | 21001000 | special
 Transfer | ACH |  | 21002000 | special
 Transfer | Billpay |  | 21003000 | special
 Transfer | Check |  | 21004000 | special
@@ -561,14 +569,18 @@ Transfer | Third Party |  | 21010000 | special
 Transfer | Third Party | Venmo | 21010001 | special
 Transfer | Third Party | Square Cash | 21010002 | special
 Transfer | Third Party | Square | 21010003 | special
-Transfer | Third Party | Paypal | 21010004 | special
+Transfer | Third Party | PayPal | 21010004 | special
 Transfer | Third Party | Dwolla | 21010005 | special
 Transfer | Third Party | Coinbase | 21010006 | special
 Transfer | Third Party | Chase QuickPay | 21010007 | special
+Transfer | Third Party | Acorns | 21010008 | special
+Transfer | Third Party | Digit | 21010009 | special
+Transfer | Third Party | Betterment | 21010010 | special
 Transfer | Wire |  | 21011000 | special
 Transfer | Withdrawal |  | 21012000 | special
 Transfer | Withdrawal | Check | 21012001 | special
 Transfer | Withdrawal | ATM | 21012002 | special
+Transfer | Save As You Go |  | 21013000 | special
 Travel |  |  | 22000000 | place
 Travel | Airlines and Aviation Services |  | 22001000 | special
 Travel | Airports |  | 22002000 | place
