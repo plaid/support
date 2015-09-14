@@ -37,7 +37,7 @@ HTTP | Code | Message | Resolve
 `402` | `1208` | *mfa not supported* | This account requires MFA to access - we're currently not supporting MFA through this institution.
 `402` | `1209` | *invalid pin* | The pin provided was not correct.
 `402` | `1210` | *account not supported* | This account is currently not supported.
-`402` | `1211` | *account not supported* | The SafePass rules for this Bank of America account restrict external access. To resolve, disable "Require SafePass to sign in to Online Banking".
+`402` | `1211` | *bofa account not supported* | The security rules for this account restrict access. Disable 'Extra Security at Sign-In' in your Bank of America settings.
 `402` | `1212` | *no accounts* | No valid accounts exist for this user.
 `402` | `1214` | *invalid state* | We either could not understand the state you sent or the state is not supported by the institution.
 `402` | `1215` | *mfa reset* | MFA access has changed or this application's access has been revoked. Submit a PATCH call to resolve.
