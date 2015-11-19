@@ -1,26 +1,37 @@
-#Plaid Support and Resources#
+# Plaid Support
 
-##Welcome to Plaid!
+## Just getting started?
 
-Please submit all questions, issues, and suggestions for the Plaid API in this channel. Full documentation can be found [here](https://plaid.com/docs).
+Welcome to Plaid! We're excited to see what you build.
 
+Check out our [**FAQ**][11] to learn more about Plaid's products and what we do. From there you can dig into our comprehensive [**technical documentation**][2]. There you'll find information about our API endpoints as well as code samples to help get you started. Our [**getting started**][12] guide will walk you through your first API requests.
 
-###General Issues
+[**Plaid Link**][1] is the quickest way to get your app up-and-running with the API. Link is a drop-in module that handles credential validation, multi-factor authentication, and error handling for each institution that we support—all while keeping credentials from ever hitting your server.
 
-For most questions, submitting an issue here will get the fastest response. We check this repository throughout the day and will work on bugs in order of priority. If your issue is particularly important, please tag it as such.
+## Running into an issue?
 
+You'll find the answers to most questions in our [**docs**][2] and [**FAQ**][11]. If you're still stuck, shoot us a note at **support@plaid.com** and we'll get back to you promptly.
 
-###Immediate Support
+**Note:** Please do NOT include your API `secret` in a support request.
 
-For issues that require immediate support or are sensitive in nature, email us at support@plaid.com. We value a public forum for bugs, fixes, and other questions - so please use this option sparingly.
+## Additional Resources
 
+ - [API Client Libraries][13]
+ - [API Error Codes][5]
+ - [Accounts Supported][6]
+ - [Transaction Categories][7]
+ - [Transaction Data Availability][8]
+ - [License Agreement][9]
+ - [Privacy Policy][10]
 
-###Additional Documentation
-
-This directory contains additional documentation pertaining to the Plaid API including:
- - [Categories](https://github.com/plaid/support/blob/master/categories.md)
- - [Errors](https://github.com/plaid/support/blob/master/errors.md)
- - [Accounts Supported](https://github.com/plaid/support/blob/master/accounts-supported.md)
- - [Data Availability](https://github.com/plaid/support/blob/master/data-availability.md)
- - [License Agreement](https://github.com/plaid/support/blob/master/license.md)
- - [Privacy Policy](https://plaid.com/privacy#Docs_Privacy_Policy)
+[1]: https://blog.plaid.com/plaid-link/
+[2]: https://plaid.com/docs
+[5]: https://github.com/plaid/support/blob/master/errors.md
+[6]: https://github.com/plaid/support/blob/master/accounts-supported.md
+[7]: https://github.com/plaid/support/blob/master/categories.md
+[8]: https://github.com/plaid/support/blob/master/data-availability.md
+[9]: https://plaid.com/legal
+[10]: https://plaid.com/privacy#Docs_Privacy_Policy
+[11]: https://blog.plaid.com/faq/
+[12]: https://blog.plaid.com/getting-started/
+[13]: https://plaid.com/docs/#resources
