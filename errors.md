@@ -39,6 +39,7 @@ HTTP | Code | Message | Resolve
 `402` | `1210` | *account not supported* | This account is currently not supported.
 `402` | `1211` | *bofa account not supported* | The security rules for this account restrict access. Disable 'Extra Security at Sign-In' in your Bank of America settings.
 `402` | `1212` | *no accounts* | No valid accounts exist for this user.
+`402` | `1213` | *invalid patch username* | The username in a PATCH request must match the username provided in the initial add user POST request.
 `402` | `1215` | *mfa reset* | MFA access has changed or this application's access has been revoked. Submit a PATCH call to resolve.
 `401` | `1218` | *mfa not required* | This item does not require the MFA process at this time.
 `404` | `1300` | *institution not available* | This institution is not yet available in this environment.
