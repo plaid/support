@@ -58,4 +58,4 @@ HTTP | Code | Message | Resolve
 `501` | `1700` | *extractor error* | We failed to pull the required information from the institution - make sure the user can access their account; we have been notified.
 `502` | `1701` | *extractor error retry* | We failed to pull the required information from the institution - resubmit this query.
 `500` | `1702` | *plaid error* | An unexpected error has occurred on our systems; we've been notified and are looking into it!
-`503` | `1800` | *planned maintenance* | Portions of our system are down for maintence. This route is inaccessible. GET requests to Auth and Connect may succeed.
+`503` | `1800` | *planned maintenance* | Portions of our system are down for maintenance. This route is inaccessible. GET requests to Auth and Connect may succeed.
