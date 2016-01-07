@@ -26,6 +26,7 @@ HTTP | Code | Message | Resolve
 `401` | `1111` | *invalid upgrade* | Specify a valid product to upgrade this item to.
 `401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
 `429` | `1113` | *rate limit exceeded* | You have exceeded your request rate limit for this product. Try again soon.
+`401` | `1114` | *unauthorized environment* | Your Client ID is not authorized to access this API environment. Contact support@plaid.com to gain access.
 `402` | `1200` | *invalid credentials* | The username or password provided were not correct.
 `402` | `1201` | *invalid username* | The username provided was not correct.
 `402` | `1202` | *invalid password* | The password provided was not correct.
