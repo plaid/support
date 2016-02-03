@@ -18,8 +18,8 @@ HTTP | Code | Message | Resolve
 `401` | `1102` | *secret or client_id invalid* | The Client ID does not exist or the Secret does not match the Client ID you provided.
 `401` | `1104` | *unauthorized product* | Your Client ID does not have access to this product. Contact us to purchase this product.
 `401` | `1105` | *bad access_token* | This access_token appears to be corrupted.
-`401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See https://github.com/plaid/link for docs.
-`401` | `1107` | *missing public_token* | Include the public_token received from the Plaid Link module. See https://github.com/plaid/link for docs.
+`401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See the [Link docs](https://plaid.com/docs/link/).
+`401` | `1107` | *missing public_token* | Include the public_token received from the Plaid Link module. See the [Link docs](https://plaid.com/docs/link/).
 `401` | `1108` | *invalid type* | This institution is not currently supported.
 `401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See https://plaid.com/docs/#sandbox.
 `401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
@@ -27,6 +27,7 @@ HTTP | Code | Message | Resolve
 `401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
 `429` | `1113` | *rate limit exceeded* | You have exceeded your request rate limit for this product. Try again soon.
 `401` | `1114` | *unauthorized environment* | Your Client ID is not authorized to access this API environment. Contact support@plaid.com to gain access.
+`401` | `1115` | *product already enabled* | The specified product is already enabled for this item. Call the corresponding product endpoint directly.
 `402` | `1200` | *invalid credentials* | The username or password provided were not correct.
 `402` | `1201` | *invalid username* | The username provided was not correct.
 `402` | `1202` | *invalid password* | The password provided was not correct.
@@ -47,6 +48,7 @@ HTTP | Code | Message | Resolve
 `404` | `1301` | *unable to find institution* | Double-check the provided institution ID.
 `402` | `1302` | *institution not responding* | The institution is failing to respond to our request, if you resubmit the query the request may go through.
 `402` | `1303` | *institution down* | The institution is down for an indeterminate amount of time, if you resubmit in a couple hours it may go through.
+`402` | `1307` | *institution no longer supported* | This institution is no longer supported by our longtail partner.
 `404` | `1501` | *unable to find category* | Double-check the provided category ID.
 `400` | `1502` | *type required* | You must include a type parameter.
 `400` | `1503` | *invalid type* | The specified type is not supported.
