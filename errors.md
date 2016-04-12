@@ -62,3 +62,14 @@ HTTP | Code | Message | Resolve
 `502` | `1701` | *extractor error retry* | We failed to pull the required information from the institution - resubmit this query.
 `500` | `1702` | *plaid error* | An unexpected error has occurred on our systems; we've been notified and are looking into it!
 `503` | `1800` | *planned maintenance* | Portions of our system are down for maintenance. This route is inaccessible. GET requests to Auth and Connect may succeed.
+
+# Plaid Link + Stripe ACH Errors
+
+These error codes are specific to the [Plaid Link + Stripe ACH integration][1] and will only be returned from the `/exchange_token` API endpoint.
+
+HTTP | Code | Message | Resolve
+---- | ---- | ------- | -------
+`400` | `2001` | *non-depository account ID specified* | Specify a valid depository account ID.
+`400` | `2002` | *unable to generate bank account token* | The bank account token could not be generated. Try again.
+
+[1]: https://plaid.com/docs/link/stripe
