@@ -25,7 +25,7 @@ You'll find the answers to most questions in our [**docs**][2] and [**FAQ**][11]
  - [Privacy Policy][10]
 
 [1]: https://blog.plaid.com/plaid-link/
-[2]: https://plaid.com/docs
+[2]: https://plaid.com/docs/api/
 [5]: https://github.com/plaid/support/blob/master/errors.md
 [6]: https://github.com/plaid/support/blob/master/accounts-supported.md
 [7]: https://github.com/plaid/support/blob/master/categories.md
