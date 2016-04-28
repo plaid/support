@@ -21,7 +21,7 @@ HTTP | Code | Message | Resolve
 `401` | `1106` | *bad public_token* | This public_token is corrupt or does not exist in our database. See the [Link docs](https://plaid.com/docs/link/).
 `401` | `1107` | *missing public_token* | Include the public_token received from the Plaid Link module. See the [Link docs](https://plaid.com/docs/link/).
 `401` | `1108` | *invalid type* | This institution is not currently supported.
-`401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See https://plaid.com/docs/#sandbox.
+`401` | `1109` | *unauthorized product* | The sandbox client_id and secret can only be used with sandbox credentials and access tokens. See the [Sandbox docs](https://plaid.com/docs/api#sandbox).
 `401` | `1110` | *product not enabled* | This product is not enabled for this item. Use the upgrade route to add it.
 `401` | `1111` | *invalid upgrade* | Specify a valid product to upgrade this item to.
 `401` | `1112` | *addition limit exceeded* | You have reached the maximum number of additions. Contact us to raise your limit.
