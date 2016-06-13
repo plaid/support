@@ -55,7 +55,6 @@ HTTP | Code | Message | Resolve
 `400` | `1507` | *invalid date* | Consult the documentation for valid date formats.
 `404` | `1600` | *product not found* | This product doesn't exist yet, we're actually not sure how you reached this error...
 `404` | `1601` | *product not available* | This product is not yet available for this institution.
-`404` | `1605` | *user not found* | User was previously deleted from our system.
 `404` | `1606` | *account not found* | The account ID provided was not correct.
 `404` | `1610` | *item not found* | No matching items found; go add an account!
 `501` | `1700` | *extractor error* | We failed to pull the required information from the institution - make sure the user can access their account; we have been notified.
