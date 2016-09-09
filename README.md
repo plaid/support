@@ -4,13 +4,13 @@
 
 Welcome to Plaid! We're excited to see what you build.
 
-Check out our [**FAQ**][11] to learn more about Plaid's products and what we do. From there you can dig into our comprehensive [**technical documentation**][2]. There you'll find information about our API endpoints as well as code samples to help get you started. Our [**getting started**][12] guide will walk you through your first API requests.
+Check out our [**FAQ**][11] to learn more about Plaid's products and what we do. From there you can dig into our comprehensive [**technical documentation**][2]. There you'll find information about our API endpoints as well as code samples to help get you started. Our [**getting started**][12] guide will walk you through your first API requests. The [**knowledgebase**][14] will help answer many common integration questions and issues.
 
 [**Plaid Link**][1] is the quickest way to get your app up-and-running with the API. Link is a drop-in module that handles credential validation, multi-factor authentication, and error handling for each institution that we support—all while keeping credentials from ever hitting your server.
 
 ## Running into an issue?
 
-You'll find the answers to most questions in our [**docs**][2] and [**FAQ**][11]. If you're still stuck, shoot us a note at **support@plaid.com** and we'll get back to you promptly.
+You'll find the answers to most questions in our [**docs**][2] and [**knowledgebase**][14]. If you're still stuck, shoot us a note at **support@plaid.com** and we'll get back to you promptly.
 
 **Note:** Please do NOT include your API `secret` in a support request.
 
@@ -35,3 +35,4 @@ You'll find the answers to most questions in our [**docs**][2] and [**FAQ**][11]
 [11]: https://blog.plaid.com/faq/
 [12]: https://blog.plaid.com/getting-started/
 [13]: https://plaid.com/docs/#resources
+[14]: https://support.plaid.com
