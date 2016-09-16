@@ -6,6 +6,7 @@ Below are details regarding the historical data available for each Financial Ins
 | ------------------------- | --------- | ---------- |
 | American Express          | 24 months | N/A        |
 | Bank of America           | 12 months | 12 months  |
+| BB&T                      | 12 months | 12 months  |
 | Chase                     | 3 months  | 24 months  |
 | Citi                      | 18 months | 18 months  |
 | Longtail Institutions     | 3 months  | 3 months   |
