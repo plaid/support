@@ -36,7 +36,7 @@ HTTP | Code | Message | Resolve
 `402` | `1205` | *account locked* | The account is locked. Prompt the user to visit the issuing institution's site and unlock their account.
 `402` | `1206` | *account not setup* | The account has not been fully set up. Prompt the user to visit the issuing institution's site and finish the setup process.
 `402` | `1207` | *country not supported* | We're United States-only at this point!
-`402` | `1208` | *mfa not supported* | This account requires MFA to access - we're currently not supporting MFA through this institution.
+`402` | `1208` | *mfa not supported* | This account requires a form of MFA that is not currently supported. Other accounts at this instutition with a different form of MFA may be supported.
 `402` | `1209` | *invalid pin* | The pin provided was not correct.
 `402` | `1210` | *account not supported* | This account is currently not supported.
 `402` | `1211` | *bofa account not supported* | The security rules for this account restrict access. Disable 'Extra Security at Sign-In' in your Bank of America settings.
