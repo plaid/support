@@ -10,7 +10,7 @@ Check out our [**FAQ**][11] to learn more about Plaid's products and what we do.
 
 ## Running into an issue?
 
-You'll find the answers to most questions in our [**docs**][2] and [**support center**][14]. If you're still stuck, shoot us a note at **support@plaid.com** and we'll get back to you promptly.
+You'll find the answers to most questions in our [**docs**][2] and [**support center**][14]. If you're still stuck, [open a support ticket][15] from your account dashbaord and we'll get back to you promptly.
 
 **Note:** Please do NOT include your API `secret` in a support request.
 
@@ -37,3 +37,4 @@ You'll find the answers to most questions in our [**docs**][2] and [**support ce
 [12]: https://blog.plaid.com/getting-started/
 [13]: https://plaid.com/docs/#resources
 [14]: https://support.plaid.com
+[15]: https://dashboard.plaid.com/support/new
