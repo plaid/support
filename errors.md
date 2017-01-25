@@ -49,6 +49,8 @@ HTTP | Code | Message | Resolve
 `404` | `1301` | *unable to find institution* | Double-check the provided institution ID.
 `402` | `1302` | *institution not responding* | The institution is failing to respond to our request, if you resubmit the query the request may go through.
 `402` | `1303` | *institution down* | The institution is down for an indeterminate amount of time, if you resubmit in a couple hours it may go through.
+`402` | `1304` | *invalid institution paging parameters* | Paging parameters must include a non-negative integer 'offset' and positive integer 'count'
+`402` | `1305` | *invalid institution query parameters* | Query parameters must include a non-empty query string
 `402` | `1307` | *institution no longer supported* | This institution is no longer supported by our longtail partner.
 `404` | `1501` | *unable to find category* | Double-check the provided category ID.
 `400` | `1502` | *type required* | You must include a type parameter.
