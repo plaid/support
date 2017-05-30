@@ -17,4 +17,4 @@ Transaction data availailability does vary by institution. Below are the typical
 | US Bank                   | 18 months | 18 months  |
 | Wells Fargo               | 2 months  | 18 months  |
 |---------------------------|-----------|------------|
-| Other institutions        | 3 months  | 3 mnonths  |
+| Other institutions        | 3 months  | 3 months  |
