@@ -45,10 +45,11 @@ Returned when all fields are provided and are in the correct format, but the val
 
 |       Error code       | Status code |                                                                                                          Notes                                                                                                           |
 |------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `INVALID_API_KEYS`     |         400 | The client ID and secret included in the request body were invalid.                                                                                                                                                      |
+| `INVALID_API_KEYS`     |         400 | The client ID and secret included in the request body were invalid. Find your API keys in [the Dashboard][dashboard-keys].                                                                                                                                                      |
+| `UNAUTHORIZED_ENVIRONMENT`     |         400 | Your client ID does not have access to this API environment. See which environments you are enabled for from [the Dashboard][dashboard].                                                                                                                                                      |
 | `INVALID_ACCESS_TOKEN` |         400 | Access tokens are in the format:<br /><br />`access-<environment>-<identifier>`<br /><br />This error can happen when the `access_token` you provided is invalid, from a different API environment, or has been deleted. |
 | `INVALID_PUBLIC_TOKEN` |         400 | Public tokens are in the format:<br /><br />`public-<environment>-<identifier>`<br /><br />This error can happen when the `public_token` you provided is invalid, from a different API environment, or expired.          |
-| `UNAUTHORIZED_PRODUCT` |         400 | Your client ID does not have access to this product. <a href="https://plaid.com/contact/sales">Contact us</a> to gain access.                                                                                            |
+| `INVALID_PRODUCT` |         400 | Your client ID does not have access to this product. <a href="https://plaid.com/contact/sales">Contact us</a> to gain access.                                                                                            |
 | `INVALID_ACCOUNT_ID`   |         400 | One of the `account_id`(s) specified is invalid or does not exist.                                                                                                                                                       |
 | `INVALID_INSTITUTION`  |         400 | The `institution_id` specified is invalid or does not exist.                                                                                                                                                             |
 
@@ -102,6 +103,10 @@ An `ITEM_ERROR` indicates that information provided for the Item (such as creden
 | `NO_ACCOUNTS`                     |         400 | Returned when there are no open accounts associated with the `Item`.                                                                                                                                                           |
 | `NO_AUTH_ACCOUNTS`                |         400 | Returned from [`POST /auth/get`](#auth) when there are no valid checking or savings account(s) for which account and routing numbers could be retrieved.                                                                       |
 | `PRODUCT_NOT_READY`               |         400 | Returned when a data request has been made for a product that is not yet ready. This primarily happens when attempting to pull transactions prior to the [initial pull](https://plaid.com/docs/api#item-transaction-lifecyle). |
+| `PRODUCT_NOT_SUPPORTED`               |         400 | Returned when a data request has been made for an `Item` for a product that it does not support. Use the [`/item/get`][item-get] endpoint to find out which products an `Item` supports. |
 
+[dashboard]: https://dashboard.plaid.com
+[dashboard-keys]: https://dashboard.plaid.com/account/keys
+[item-get]: https://plaid.com/docs/api#retrieve-item
 [errors]: https://plaid.com/docs/api#errors
 [legacy-errors]: legacy-errors.md
