@@ -1,6 +1,6 @@
 # Data availability by institution
 
-Transaction data availailability does vary by institution. Below are the typical availabilities of our most popular institutions.
+Transaction data availability does vary by institution. Below are the typical availabilities of our most popular institutions.
 
 |   Financial Institution   |   Credit  | Depository |
 |---------------------------|-----------|------------|
