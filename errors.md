@@ -79,7 +79,7 @@ Returned during planned maintenance windows and in response to API errors.
 |        Error code       | Status code |                                                                       Notes                                                                        |
 |-------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | `INTERNAL_SERVER_ERROR` |         500 | Plaid was unable to process the request, either due to an internal system issue or an unsupported response from a financial institution.           |
-| `PLANNED_MAINTENANCE`   |         500 | Plaid's systems are in maintenance mode and API operations are disabled. Advanced notice will be provided if a maintenance window is ever planned.x |
+| `PLANNED_MAINTENANCE`   |         500 | Plaid's systems are in maintenance mode and API operations are disabled. Advanced notice will be provided if a maintenance window is ever planned. |
 
 ## Item errors
 
